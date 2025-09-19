@@ -76,15 +76,14 @@
             <a href="/" class="flex items-center gap-2">
                 <span
                     class="w-9 h-9 rounded-full bg-blue-500 grid place-items-center text-white font-semibold">IT</span>
-                <span class="font-semibold">IT Company.</span>
+                <span class="font-semibold">HEPTALOGIC</span>
             </a>
             <nav class="hidden md:flex items-center gap-6 text-white/80">
                 <a href="#home" class="hover:text-white">Home</a>
-                <a href="#services" class="hover:text-white">Services</a>
-                <a href="#projects" class="hover:text-white">Projects</a>
-                <a href="#blogs" class="hover:text-white">Blogs</a>
-                <a href="#about" class="hover:text-white">About Us</a>
-                <a href="#pricing" class="hover:text-white">Pricing</a>
+                <a href="#services" class="hover:text-white">Tentang Kami</a>
+                <a href="#projects" class="hover:text-white">Layanan</a>
+                <a href="#blogs" class="hover:text-white">Projects</a>
+                <a href="#about" class="hover:text-white">Kontak</a>
             </nav>
             <a href="#"
                 class="hidden sm:inline-block px-5 py-2 rounded-full bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium shadow-md">Get
@@ -96,22 +95,19 @@
     <section id="home" class="relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
             <div>
-                <p class="text-blue-400 text-sm mb-4">Experience The Best IT Solutions</p>
-                <h1 class="text-4xl md:text-5xl font-semibold leading-tight mb-6" data-split>Where Creativity
-                    <br class="hidden md:block" />
-                    Meets Cutting-Edge
-                    <br class="hidden md:block" />
-                    Technologiaaaa
+                <p class="text-blue-400 text-sm mb-2">Solusi Digital Terpercaya</p>
+                <h1 class="text-4xl md:text-5xl font-semibold leading-tight mb-3" data-split>
+                    Membangun Website dan Aplikasi Profesional
                 </h1>
-                <p class="text-white/70 mb-8 max-w-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore.</p>
+                <p class="text-white/80 italic mb-4">“Dari Logika, Hadirkan Solusi.”</p>
+                <p class="text-white/70 mb-8 max-w-xl">Hepta Logic menghadirkan layanan pengembangan website dan aplikasi dengan desain modern, teknologi terbaru, dan hasil yang dapat diandalkan.</p>
                 <div class="flex items-center gap-4">
-                    <a href="#"
+                    <a href="#services"
                         class="px-6 py-3 rounded-full bg-blue-500 hover:bg-blue-600 text-white font-medium inline-flex items-center gap-2">
-                        <span>Explore More</span>
+                        <span>Lihat Layanan</span>
                         <span class="inline-grid place-items-center w-5 h-5 rounded-full bg-white/20">→</span>
                     </a>
-                    <a href="#" class="text-white/90 underline underline-offset-4">View All Services</a>
+                    <a href="#about" class="px-6 py-3 rounded-full bg-white/10 hover:bg-white/20 text-white font-medium">Konsultasi Gratis</a>
                 </div>
             </div>
             <div class="relative">
