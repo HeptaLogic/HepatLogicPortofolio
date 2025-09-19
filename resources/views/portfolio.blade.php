@@ -79,19 +79,13 @@
                 <span class="font-semibold">HEPTALOGIC</span>
             </a>
             <nav class="hidden md:flex items-center gap-6 text-white/80">
-<<<<<<< Updated upstream
+
                 <a href="#home" class="hover:text-white">Beranda</a>
                 <a href="#about" class="hover:text-white">Tentang Kami</a>
                 <a href="#projects" class="hover:text-white">Layanan</a>
                 <a href="#blogs" class="hover:text-white">Projects</a>
                 <a href="#about" class="hover:text-white">Kontak</a>
-=======
-                <a href="#home" class="hover:text-white">Home</a>
-                <a href="#services" class="hover:text-white">Services</a>
-                <a href="#projects" class="hover:text-white">Projects</a>
-                <a href="#about" class="hover:text-white">About Us</a>
-                <a href="#contact" class="hover:text-white">Contact</a>
->>>>>>> Stashed changes
+
             </nav>
             <a href="#"
                 class="hidden sm:inline-block px-5 py-2 rounded-full bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium shadow-md">Get
