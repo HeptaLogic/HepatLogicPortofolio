@@ -113,6 +113,8 @@ function boot() {
     // run twice to be extra-safe after layout
     initSplitText();
     setTimeout(initSplitText, 200);
+    initRevealText();
+    initRevealCards();
 }
 
 if (document.readyState === 'complete' || document.readyState === 'interactive') {
@@ -120,6 +122,49 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
 } else {
     document.addEventListener('DOMContentLoaded', boot);
     window.addEventListener('load', boot);
+}
+
+// Simple reveal animation (non-split) for project section
+function initRevealText() {
+    const targets = document.querySelectorAll('[data-reveal]');
+    const io = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            const el = entry.target;
+            io.unobserve(el);
+            if (el.getAttribute('data-reveal-done')) return;
+            el.setAttribute('data-reveal-done', 'true');
+            const delay = Number(el.getAttribute('data-reveal-delay') || 0);
+            el.animate([
+                { opacity: 0, transform: 'translateY(20px) scale(0.98)' },
+                { opacity: 1, transform: 'translateY(0) scale(1)' }
+            ], { duration: 2000, delay, easing: 'cubic-bezier(0.2,0.6,0.2,1)', fill: 'forwards' });
+        });
+    }, { threshold: 0.1 });
+    targets.forEach(t => io.observe(t));
+}
+
+// Reveal animation for project cards with stagger
+function initRevealCards() {
+    const cards = document.querySelectorAll('[data-card]');
+    const io = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            const el = entry.target;
+            io.unobserve(el);
+            if (el.getAttribute('data-card-done')) return;
+            el.setAttribute('data-card-done', 'true');
+            const delay = Number(el.getAttribute('data-card-delay') || 0);
+            el.animate([
+                { opacity: 0, transform: 'translateY(24px) scale(0.98)' },
+                { opacity: 1, transform: 'translateY(0) scale(1)' }
+            ], { duration: 1500, delay, easing: 'cubic-bezier(0.2,0.6,0.2,1)', fill: 'forwards' });
+        });
+    }, { threshold: 0.15 });
+    cards.forEach((c, idx) => {
+        c.setAttribute('data-card-delay', String(idx * 120));
+        io.observe(c);
+    });
 }
 
 

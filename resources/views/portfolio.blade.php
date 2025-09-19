@@ -516,96 +516,63 @@
     <section id="projects" class="relative bg-white">
         <div
             class="absolute inset-x-0 top-6 select-none pointer-events-none text-[#0b1530]/5 font-extrabold tracking-tight text-6xl md:text-8xl text-center">
-            LATEST PROJECTS</div>
+            PROYEK TERBARU</div>
         <div class="max-w-7xl mx-auto px-4 py-20">
             <div class="text-center mb-10">
-                <p class="text-blue-500 text-sm mb-2">// Our Latest Projects</p>
-                <h2 class="text-3xl md:text-4xl font-semibold text-[#0b1530]" data-split>
-                    Explore Our Showcase of
+                <p class="text-blue-500 text-sm mb-2" data-reveal>// Proyek Terbaru Kami</p>
+                <h2 class="text-3xl md:text-4xl font-semibold text-[#0b1530]" data-reveal data-reveal-delay="60">
+                    Jelajahi Koleksi
                     <br class="hidden md:block" />
-                    <span class="text-blue-600">Featured Works</span>
+                    <span class="text-blue-600">Karya Unggulan</span>
                 </h2>
             </div>
 
             <div class="grid md:grid-cols-2 gap-6 mb-10">
-                <!-- Card 1 -->
-                <article class="relative rounded-2xl overflow-hidden shadow-sm border border-slate-200/80">
-                    <img class="w-full h-[260px] md:h-[300px] object-cover"
-                        src="https://images.unsplash.com/photo-1547658719-29fa03e284e8?q=80&w=1200&auto=format&fit=crop"
-                        alt="project-1">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
-                    <div class="absolute left-0 right-0 bottom-0 p-5 text-white">
-                        <h3 class="font-semibold leading-snug">Care Connect - Doctor Appointment App</h3>
-                        <div class="mt-3 flex flex-wrap gap-2 text-[11px]">
-                            <span class="px-2 py-1 rounded-full bg-white/15">UI/UX Design</span>
-                            <span class="px-2 py-1 rounded-full bg-white/15">App Design</span>
-                            <span class="px-2 py-1 rounded-full bg-white/15">Wireframe</span>
-                        </div>
+                <!-- BangunRumahProject.com -->
+                <article
+                    class="group relative rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 will-change-transform transition-transform duration-500 hover:-translate-y-2 hover:shadow-xl"
+                    data-card>
+                    <img class="w-full h-[260px] md:h-[300px] object-cover transition-transform duration-700 group-hover:scale-[1.06]"
+                        src="{{ Vite::asset('resources/images/BangunRumah.png') }}" alt="BangunRumahProject">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent transition-opacity duration-500 group-hover:from-black/80">
                     </div>
-                    <button
-                        class="absolute right-4 bottom-4 w-12 h-12 rounded-full bg-blue-600 hover:bg-blue-700 grid place-items-center text-white shadow-md">↗</button>
-                </article>
-
-                <!-- Card 2 -->
-                <article class="relative rounded-2xl overflow-hidden shadow-sm border border-slate-200/80">
-                    <img class="w-full h-[260px] md:h-[300px] object-cover"
-                        src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop"
-                        alt="project-2">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                     <div class="absolute left-0 right-0 bottom-0 p-5 text-white">
-                        <h3 class="font-semibold leading-snug">Dental - Dentist and Dental Clinic Website UI/UX Design
-                        </h3>
+                        <h3 class="font-semibold leading-snug">BangunRumahProject.com</h3>
                         <div class="mt-3 flex flex-wrap gap-2 text-[11px]">
-                            <span class="px-2 py-1 rounded-full bg-white/15">UI/UX Design</span>
                             <span class="px-2 py-1 rounded-full bg-white/15">Web Design</span>
-                            <span class="px-2 py-1 rounded-full bg-white/15">Wireframe</span>
+                            <span class="px-2 py-1 rounded-full bg-white/15">UI/UX</span>
                         </div>
                     </div>
-                    <button
-                        class="absolute right-4 bottom-4 w-12 h-12 rounded-full bg-blue-600 hover:bg-blue-700 grid place-items-center text-white shadow-md">↗</button>
+                    <a href="http://bangunrumahproject.com" target="_blank" rel="noopener"
+                        class="absolute right-4 bottom-4 w-12 h-12 rounded-full bg-blue-600 hover:bg-blue-700 grid place-items-center text-white shadow-md transition-transform duration-500 group-hover:-translate-y-1 group-hover:translate-x-1">↗</a>
                 </article>
 
-                <!-- Card 3 -->
-                <article class="relative rounded-2xl overflow-hidden shadow-sm border border-slate-200/80">
-                    <img class="w-full h-[260px] md:h-[300px] object-cover"
-                        src="https://images.unsplash.com/photo-1549921296-3ecf9f10d0f4?q=80&w=1200&auto=format&fit=crop"
-                        alt="project-3">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                <!-- ChiliDetect -->
+                <article
+                    class="group relative rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 will-change-transform transition-transform duration-500 hover:-translate-y-2 hover:shadow-xl"
+                    data-card>
+                    <img class="w-full h-[260px] md:h-[300px] object-cover transition-transform duration-700 group-hover:scale-[1.06]"
+                        src="{{ Vite::asset('resources/images/DeteksiDaunCabe.png') }}" alt="ChiliDetect AI">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent transition-opacity duration-500 group-hover:from-black/80">
+                    </div>
                     <div class="absolute left-0 right-0 bottom-0 p-5 text-white">
-                        <h3 class="font-semibold leading-snug">Car Rental - Car Rental Booking Mobile App</h3>
+                        <h3 class="font-semibold leading-snug">ChiliDetect – AI Deteksi Penyakit Cabai</h3>
                         <div class="mt-3 flex flex-wrap gap-2 text-[11px]">
-                            <span class="px-2 py-1 rounded-full bg-white/15">UI/UX Design</span>
-                            <span class="px-2 py-1 rounded-full bg-white/15">App Design</span>
-                            <span class="px-2 py-1 rounded-full bg-white/15">Wireframe</span>
+                            <span class="px-2 py-1 rounded-full bg-white/15">AI</span>
+                            <span class="px-2 py-1 rounded-full bg-white/15">Web App</span>
                         </div>
                     </div>
-                    <button
-                        class="absolute right-4 bottom-4 w-12 h-12 rounded-full bg-blue-600 hover:bg-blue-700 grid place-items-center text-white shadow-md">↗</button>
-                </article>
-
-                <!-- Card 4 -->
-                <article class="relative rounded-2xl overflow-hidden shadow-sm border border-slate-200/80">
-                    <img class="w-full h-[260px] md:h-[300px] object-cover"
-                        src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop"
-                        alt="project-4">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
-                    <div class="absolute left-0 right-0 bottom-0 p-5 text-white">
-                        <h3 class="font-semibold leading-snug">Hotel Booking - Landing Page UI/UX Design</h3>
-                        <div class="mt-3 flex flex-wrap gap-2 text-[11px]">
-                            <span class="px-2 py-1 rounded-full bg-white/15">UI/UX Design</span>
-                            <span class="px-2 py-1 rounded-full bg-white/15">Landing Page</span>
-                            <span class="px-2 py-1 rounded-full bg-white/15">Wireframe</span>
-                        </div>
-                    </div>
-                    <button
-                        class="absolute right-4 bottom-4 w-12 h-12 rounded-full bg-blue-600 hover:bg-blue-700 grid place-items-center text-white shadow-md">↗</button>
+                    <a href="https://c-project-frontend-ntbg.vercel.app/detect" target="_blank" rel="noopener"
+                        class="absolute right-4 bottom-4 w-12 h-12 rounded-full bg-blue-600 hover:bg-blue-700 grid place-items-center text-white shadow-md transition-transform duration-500 group-hover:-translate-y-1 group-hover:translate-x-1">↗</a>
                 </article>
             </div>
 
             <div class="text-center">
                 <a href="#"
-                    class="inline-flex h-10 px-5 rounded-full bg-[#3c6cf3] hover:bg-[#305ee6] text-white text-sm items-center justify-center shadow-md">View
-                    All Works</a>
+                    class="inline-flex h-10 px-5 rounded-full bg-[#3c6cf3] hover:bg-[#305ee6] text-white text-sm items-center justify-center shadow-md">Lihat
+                    Semua Karya</a>
             </div>
         </div>
     </section>
