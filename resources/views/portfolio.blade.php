@@ -79,7 +79,7 @@
             </a>
             <nav class="hidden md:flex items-center gap-6 text-white/80">
                 <a href="#" class="hover:text-white">Home</a>
-                <a href="#" class="hover:text-white">Services</a>
+                <a href="#services" class="hover:text-white">Services</a>
                 <a href="#" class="hover:text-white">Projects</a>
                 <a href="#" class="hover:text-white">Blogs</a>
                 <a href="#" class="hover:text-white">About Us</a>
@@ -217,12 +217,12 @@
 
     <!-- Services Section -->
     <section class="relative bg-[#f6f8ff]">
-        <div
+        <div id="services">
             class="absolute inset-x-0 top-4 select-none pointer-events-none text-[#0b1530]/5 font-extrabold tracking-tight text-6xl md:text-8xl text-center">
             SERVICES</div>
         <div class="max-w-7xl mx-auto px-4 py-20">
             <div class="flex items-start justify-between gap-6 mb-10">
-                <div>
+                <div id="services">
                     <p class="text-blue-500 text-sm mb-2">// Our Services</p>
                     <h2 class="text-[28px] md:text-4xl font-semibold text-[#0b1530] leading-snug">Services We Provide
                         to<br /><span class="text-blue-600">Elevate Your Business</span></h2>
