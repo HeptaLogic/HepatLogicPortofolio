@@ -60,7 +60,7 @@
                             d="M23.954 4.569c-.885.392-1.83.656-2.825.775 1.014-.611 1.794-1.574 2.163-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-2.723 0-4.928 2.206-4.928 4.93 0 .386.045.762.127 1.124C7.69 8.095 4.066 6.13 1.64 3.161c-.423.722-.666 1.561-.666 2.475 0 1.708.87 3.213 2.19 4.099-.807-.025-1.566-.248-2.229-.616v.062c0 2.386 1.697 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.376 4.6 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.402 4.768 2.219 7.557 2.219 9.054 0 14.002-7.496 14.002-13.986 0-.21 0-.423-.016-.633.961-.695 1.8-1.562 2.46-2.549z" />
                     </svg>
                 </a>
-                <a href="#" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 grid place-items-center">
+                <a href="https://www.instagram.com/heptalogic.id?utm_source=qr&igsh=MXhmaXZ2NzZuNjZpZQ==" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 grid place-items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-4 h-4">
                         <path
                             d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.43.403a4.92 4.92 0 011.77 1.153 4.92 4.92 0 011.153 1.77c.163.46.347 1.26.403 2.43.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.403 2.43a4.92 4.92 0 01-1.153 1.77 4.92 4.92 0 01-1.77 1.153c-.46.163-1.26.347-2.43.403-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.43-.403a4.92 4.92 0 01-1.77-1.153 4.92 4.92 0 01-1.153-1.77c-.163-.46-.347-1.26-.403-2.43C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.056-1.17.24-1.97.403-2.43a4.92 4.92 0 011.153-1.77 4.92 4.92 0 011.77-1.153c.46-.163 1.26-.347 2.43-.403C8.416 2.175 8.796 2.163 12 2.163zm0 3.24a6.597 6.597 0 100 13.194 6.597 6.597 0 000-13.194zm0 10.89a4.293 4.293 0 110-8.586 4.293 4.293 0 010 8.586zm6.406-11.845a1.54 1.54 0 11-3.082 0 1.54 1.54 0 013.082 0z" />
@@ -79,19 +79,13 @@
                 <span class="font-semibold">HEPTALOGIC</span>
             </a>
             <nav class="hidden md:flex items-center gap-6 text-white/80">
-<<<<<<< Updated upstream
+
                 <a href="#home" class="hover:text-white">Beranda</a>
                 <a href="#about" class="hover:text-white">Tentang Kami</a>
                 <a href="#projects" class="hover:text-white">Layanan</a>
                 <a href="#blogs" class="hover:text-white">Projects</a>
                 <a href="#about" class="hover:text-white">Kontak</a>
-=======
-                <a href="#home" class="hover:text-white">Home</a>
-                <a href="#services" class="hover:text-white">Services</a>
-                <a href="#projects" class="hover:text-white">Projects</a>
-                <a href="#about" class="hover:text-white">About Us</a>
-                <a href="#contact" class="hover:text-white">Contact</a>
->>>>>>> Stashed changes
+
             </nav>
             <a href="#"
                 class="hidden sm:inline-block px-5 py-2 rounded-full bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium shadow-md">Get
