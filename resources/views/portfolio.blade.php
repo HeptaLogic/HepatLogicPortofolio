@@ -75,12 +75,12 @@
         <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="/" class="flex items-center gap-2">
                 <span
-                    class="w-9 h-9 rounded-full bg-blue-500 grid place-items-center text-white font-semibold">IT</span>
+                    class="w-9 h-9 rounded-full bg-blue-500 grid place-items-center text-white font-semibold">HL</span>
                 <span class="font-semibold">HEPTALOGIC</span>
             </a>
             <nav class="hidden md:flex items-center gap-6 text-white/80">
-                <a href="#home" class="hover:text-white">Home</a>
-                <a href="#services" class="hover:text-white">Tentang Kami</a>
+                <a href="#home" class="hover:text-white">Beranda</a>
+                <a href="#about" class="hover:text-white">Tentang Kami</a>
                 <a href="#projects" class="hover:text-white">Layanan</a>
                 <a href="#blogs" class="hover:text-white">Projects</a>
                 <a href="#about" class="hover:text-white">Kontak</a>
