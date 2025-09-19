@@ -9,6 +9,7 @@
 
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     @viteReactRefresh
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -232,14 +233,11 @@
                         We Provide
                         to<br /><span class="text-blue-600">Elevate Your Business</span></h2>
                 </div>
-                <a href="#"
-                    class="shrink-0 h-10 px-5 rounded-full bg-blue-600 hover:bg-blue-700 text-white text-sm grid place-items-center shadow-md">View
-                    All Services</a>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-6">
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-6">
                 <!-- Card 1 -->
-                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden">
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden" data-aos="fade-down-right" data-aos-duration="1000">
                     <div class="p-6">
                         <div
                             class="w-12 h-12 rounded-xl bg-blue-600/10 text-blue-600 grid place-items-center mb-4 shadow-inner">
@@ -252,16 +250,13 @@
                             </svg>
                         </div>
                         <h3 class="font-semibold text-[#0b1530] mb-2">Website Development</h3>
-                        <p class="text-slate-500 text-sm leading-6 mb-5">Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
-                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Learn more
-                            <span>→</span></a>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">pembuatan dan pengembangan website, mulai dari company profile, e-commerce, blog, hingga sistem berbasis web.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Website responsif, cepat, SEO-friendly, dengan fitur sesuai kebutuhan klien. </a>
                     </div>
-                    <div class="h-[3px] bg-gradient-to-r from-blue-600 to-blue-400"></div>
                 </div>
 
                 <!-- Card 2 -->
-                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden">
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden" data-aos="fade-down-right" data-aos-duration="2000">
                     <div class="p-6">
                         <div
                             class="w-12 h-12 rounded-xl bg-blue-600/10 text-blue-600 grid place-items-center mb-4 shadow-inner">
@@ -272,15 +267,13 @@
                             </svg>
                         </div>
                         <h3 class="font-semibold text-[#0b1530] mb-2">Mobile App Development</h3>
-                        <p class="text-slate-500 text-sm leading-6 mb-5">Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
-                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Learn more
-                            <span>→</span></a>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">pembuatan aplikasi mobile berbasis Android dan iOS, baik aplikasi publik maupun aplikasi internal perusahaan.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Aplikasi bisnis, marketplace, aplikasi edukasi, hingga aplikasi internal perusahaan.</a>
                     </div>
                 </div>
 
                 <!-- Card 3 -->
-                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden">
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden" data-aos="fade-down-right" data-aos-duration="3000">
                     <div class="p-6">
                         <div
                             class="w-12 h-12 rounded-xl bg-blue-600/10 text-blue-600 grid place-items-center mb-4 shadow-inner">
@@ -292,10 +285,8 @@
                             </svg>
                         </div>
                         <h3 class="font-semibold text-[#0b1530] mb-2">UI/UX Design</h3>
-                        <p class="text-slate-500 text-sm leading-6 mb-5">Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
-                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Learn more
-                            <span>→</span></a>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">perancangan tampilan (User Interface) dan pengalaman pengguna (User Experience) untuk aplikasi atau website.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Wireframe, prototype interaktif, serta desain visual yang konsisten dengan brand identity.</a>
                     </div>
                 </div>
             </div>
@@ -884,6 +875,10 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
