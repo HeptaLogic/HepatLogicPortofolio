@@ -100,7 +100,7 @@
                     <br class="hidden md:block" />
                     Meets Cutting-Edge
                     <br class="hidden md:block" />
-                    Technology
+                    Technologiaaaa
                 </h1>
                 <p class="text-white/70 mb-8 max-w-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore.</p>
