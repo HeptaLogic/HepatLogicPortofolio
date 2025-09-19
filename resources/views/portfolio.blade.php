@@ -790,26 +790,11 @@
                 <div>
                     <h3 class="font-semibold text-lg mb-6">Quick Links</h3>
                     <ul class="space-y-3">
-<<<<<<< Updated upstream
-                        <li><a href="#home"
-                                class="text-white/70 hover:text-white transition-colors text-sm">Home</a></li>
-                        <li><a href="#services"
-                                class="text-white/70 hover:text-white transition-colors text-sm">Services</a></li>
-                        <li><a href="#projects"
-                                class="text-white/70 hover:text-white transition-colors text-sm">Projects</a></li>
-                        <li><a href="#about" class="text-white/70 hover:text-white transition-colors text-sm">About
-                                Us</a></li>
-                        <li><a href="#pricing"
-                                class="text-white/70 hover:text-white transition-colors text-sm">Pricing</a></li>
-                        <li><a href="#blogs"
-                                class="text-white/70 hover:text-white transition-colors text-sm">Blog</a></li>
-=======
                         <li><a href="#home" class="text-white/70 hover:text-white transition-colors text-sm">Home</a></li>
                         <li><a href="#services" class="text-white/70 hover:text-white transition-colors text-sm">Services</a></li>
                         <li><a href="#projects" class="text-white/70 hover:text-white transition-colors text-sm">Projects</a></li>
                         <li><a href="#about" class="text-white/70 hover:text-white transition-colors text-sm">About Us</a></li>
                         <li><a href="#contact" class="text-white/70 hover:text-white transition-colors text-sm">Contact</a></li>
->>>>>>> Stashed changes
                     </ul>
                 </div>
 
