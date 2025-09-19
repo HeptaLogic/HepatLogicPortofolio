@@ -133,6 +133,7 @@
         </div>
     </section>
 
+
     <!-- About Section -->
     <section id="about" class="relative bg-white text-[#0b1530]">
         <div class="max-w-7xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-12 items-center">
@@ -397,6 +398,130 @@
                     <div class="text-slate-500 text-sm leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit</div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why" class="relative bg-[#0d1835] text-white">
+        <!-- Top ribbon -->
+        <div class="bg-[#3c6cf3] text-white/95 text-sm">
+            <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-center gap-8">
+                <div class="flex items-center gap-3"><span class="font-medium">Website Development</span><span
+                        class="text-white">✶</span></div>
+                <div class="hidden md:flex items-center gap-3"><span class="font-medium">UX/UI Design</span><span
+                        class="text-white">✶</span></div>
+                <div class="hidden md:flex items-center gap-3"><span class="font-medium">Graphics Design</span><span
+                        class="text-white">✶</span></div>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 py-16 md:py-20 relative">
+            <!-- Watermark heading -->
+            <div
+                class="absolute -top-6 left-4 md:left-6 text-6xl md:text-8xl tracking-tight text-white/5 select-none pointer-events-none">
+                WHY CHOOSE US</div>
+
+            <div class="flex items-start justify-between mb-8">
+                <div>
+                    <p class="text-white/70 text-sm mb-2">Why Choose Us</p>
+                    <h2 class="text-3xl md:text-4xl font-semibold leading-snug">Why Trust Us for<br />Your IT Needs?
+                    </h2>
+                </div>
+                <a href="#pricing"
+                    class="shrink-0 h-10 px-5 rounded-full bg-[#3c6cf3] hover:bg-[#305ee6] text-white text-sm grid place-items-center">Get
+                    A Quote</a>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-10 items-start">
+                <!-- Video / image card -->
+                <div>
+                    <div
+                        class="rounded-xl overflow-hidden bg-white/5 border border-white/10 shadow-xl w-full max-w-[640px]">
+                        <div class="relative">
+                            <img src="https://images.unsplash.com/photo-1552581234-26160f608093?q=80&w=1200&auto=format&fit=crop"
+                                alt="Team meeting" class="w-full h-[300px] md:h-[340px] object-cover">
+                            <button
+                                class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-14 h-14 rounded-full bg-white/90 text-[#0d1835] grid place-items-center shadow">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="w-6 h-6">
+                                    <path d="M8.25 5.5v13l10.5-6.5-10.5-6.5z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Features 2x2 -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-10">
+                    <div class="flex items-start gap-4">
+                        <div class="w-11 h-11 rounded-lg bg-white/10 grid place-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-6 h-6">
+                                <path
+                                    d="M12 2.25a9.75 9.75 0 100 19.5 9.75 9.75 0 000-19.5zM9 12h6a.75.75 0 010 1.5H9A.75.75 0 019 12z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="font-semibold">Affordable Price</div>
+                            <p class="text-white/70 text-xs leading-6 max-w-[240px]">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="w-11 h-11 rounded-lg bg-white/10 grid place-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-6 h-6">
+                                <path
+                                    d="M12 2.25a9.75 9.75 0 100 19.5 9.75 9.75 0 000-19.5zM8.625 9.75a.75.75 0 111.5 0 .75.75 0 01-1.5 0zm5.25 0a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM8.25 13.5a3.75 3.75 0 007.5 0 .75.75 0 111.5 0 5.25 5.25 0 01-10.5 0 .75.75 0 011.5 0z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="font-semibold">Professional Team</div>
+                            <p class="text-white/70 text-xs leading-6 max-w-[240px]">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="w-11 h-11 rounded-lg bg-white/10 grid place-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-6 h-6">
+                                <path d="M6 2.25h12v1.5H6v-1.5zM6 6h12v1.5H6V6zM6 9.75h12V15a6 6 0 11-12 0V9.75z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="font-semibold">18+ Years Experience</div>
+                            <p class="text-white/70 text-xs leading-6 max-w-[240px]">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="w-11 h-11 rounded-lg bg-white/10 grid place-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-6 h-6">
+                                <path
+                                    d="M12 2.25l2.598 5.262 5.81.845-4.204 4.098.993 5.79L12 15.75l-5.197 2.495.993-5.79L3.592 8.357l5.81-.845L12 2.25z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="font-semibold">Award Winning</div>
+                            <p class="text-white/70 text-xs leading-6 max-w-[240px]">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom ribbon -->
+        <div class="bg-[#3c6cf3] text-white/95 text-sm">
+            <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-center gap-8">
+                <div class="flex items-center gap-3"><span class="font-medium">Website Development</span><span
+                        class="text-white">✶</span></div>
+                <div class="hidden md:flex items-center gap-3"><span class="font-medium">UX/UI Design</span><span
+                        class="text-white">✶</span></div>
+                <div class="hidden md:flex items-center gap-3"><span class="font-medium">Graphics Design</span><span
+                        class="text-white">✶</span></div>
             </div>
         </div>
     </section>
