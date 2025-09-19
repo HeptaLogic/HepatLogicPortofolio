@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700" rel="stylesheet" />
 
+    @viteReactRefresh
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
@@ -96,7 +97,7 @@
         <div class="max-w-7xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
             <div>
                 <p class="text-blue-400 text-sm mb-4">Experience The Best IT Solutions</p>
-                <h1 class="text-4xl md:text-5xl font-semibold leading-tight mb-6">Where Creativity
+                <h1 class="text-4xl md:text-5xl font-semibold leading-tight mb-6" data-split>Where Creativity
                     <br class="hidden md:block" />
                     Meets Cutting-Edge
                     <br class="hidden md:block" />
@@ -184,7 +185,7 @@
             <!-- Content -->
             <div>
                 <p class="text-blue-500 text-sm mb-2">// About Us</p>
-                <h2 class="text-3xl md:text-4xl font-semibold leading-tight mb-4">
+                <h2 class="text-3xl md:text-4xl font-semibold leading-tight mb-4" data-split>
                     Transforming <span class="text-blue-600">Ideas</span><br class="hidden md:block" /> into <span
                         class="text-blue-600">Digital Reality</span>
                 </h2>
@@ -218,14 +219,15 @@
 
     <!-- Services Section -->
     <section id="services" class="relative bg-[#f6f8ff]">
-        <div id="services">
+        <div
             class="absolute inset-x-0 top-4 select-none pointer-events-none text-[#0b1530]/5 font-extrabold tracking-tight text-6xl md:text-8xl text-center">
             SERVICES</div>
         <div class="max-w-7xl mx-auto px-4 py-20">
             <div class="flex items-start justify-between gap-6 mb-10">
-                <div id="services">
+                <div>
                     <p class="text-blue-500 text-sm mb-2">// Our Services</p>
-                    <h2 class="text-[28px] md:text-4xl font-semibold text-[#0b1530] leading-snug">Services We Provide
+                    <h2 class="text-[28px] md:text-4xl font-semibold text-[#0b1530] leading-snug" data-split>Services
+                        We Provide
                         to<br /><span class="text-blue-600">Elevate Your Business</span></h2>
                 </div>
                 <a href="#"
@@ -305,7 +307,7 @@
             WORK PROCESS</div>
         <div class="max-w-7xl mx-auto px-4 py-20 text-center">
             <p class="text-blue-500 text-sm mb-2">// Our Work Process</p>
-            <h2 class="text-[28px] md:text-4xl font-semibold text-[#0b1530] mb-12">Our Proven <span
+            <h2 class="text-[28px] md:text-4xl font-semibold text-[#0b1530] mb-12" data-split>Our Proven <span
                     class="text-blue-600">Work Process</span></h2>
 
             <div class="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-6 items-start relative">
@@ -406,14 +408,7 @@
     <section id="why" class="relative bg-[#0d1835] text-white">
         <!-- Top ribbon -->
         <div class="bg-[#3c6cf3] text-white/95 text-sm">
-            <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-center gap-8">
-                <div class="flex items-center gap-3"><span class="font-medium">Website Development</span><span
-                        class="text-white">✶</span></div>
-                <div class="hidden md:flex items-center gap-3"><span class="font-medium">UX/UI Design</span><span
-                        class="text-white">✶</span></div>
-                <div class="hidden md:flex items-center gap-3"><span class="font-medium">Graphics Design</span><span
-                        class="text-white">✶</span></div>
-            </div>
+            <div id="rb-top"></div>
         </div>
 
         <div class="max-w-7xl mx-auto px-4 py-16 md:py-20 relative">
@@ -425,12 +420,11 @@
             <div class="flex items-start justify-between mb-8">
                 <div>
                     <p class="text-white/70 text-sm mb-2">Why Choose Us</p>
-                    <h2 class="text-3xl md:text-4xl font-semibold leading-snug">Why Trust Us for<br />Your IT Needs?
+                    <h2 class="text-3xl md:text-4xl font-semibold leading-snug" data-split>Why Trust Us for<br />Your
+                        IT Needs?
                     </h2>
                 </div>
-                <a href="#pricing"
-                    class="shrink-0 h-10 px-5 rounded-full bg-[#3c6cf3] hover:bg-[#305ee6] text-white text-sm grid place-items-center">Get
-                    A Quote</a>
+                <div id="magnet-cta"></div>
             </div>
 
             <div class="grid lg:grid-cols-2 gap-10 items-start">
@@ -515,14 +509,7 @@
 
         <!-- Bottom ribbon -->
         <div class="bg-[#3c6cf3] text-white/95 text-sm">
-            <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-center gap-8">
-                <div class="flex items-center gap-3"><span class="font-medium">Website Development</span><span
-                        class="text-white">✶</span></div>
-                <div class="hidden md:flex items-center gap-3"><span class="font-medium">UX/UI Design</span><span
-                        class="text-white">✶</span></div>
-                <div class="hidden md:flex items-center gap-3"><span class="font-medium">Graphics Design</span><span
-                        class="text-white">✶</span></div>
-            </div>
+            <div id="rb-bottom"></div>
         </div>
     </section>
 </body>
