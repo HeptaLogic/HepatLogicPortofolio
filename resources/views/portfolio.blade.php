@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="scroll-smooth">
 
 <head>
     <meta charset="utf-8">
@@ -78,12 +78,12 @@
                 <span class="font-semibold">IT Company.</span>
             </a>
             <nav class="hidden md:flex items-center gap-6 text-white/80">
-                <a href="#" class="hover:text-white">Home</a>
+                <a href="#home" class="hover:text-white">Home</a>
                 <a href="#services" class="hover:text-white">Services</a>
-                <a href="#" class="hover:text-white">Projects</a>
-                <a href="#" class="hover:text-white">Blogs</a>
-                <a href="#" class="hover:text-white">About Us</a>
-                <a href="#" class="hover:text-white">Pricing</a>
+                <a href="#projects" class="hover:text-white">Projects</a>
+                <a href="#blogs" class="hover:text-white">Blogs</a>
+                <a href="#about" class="hover:text-white">About Us</a>
+                <a href="#pricing" class="hover:text-white">Pricing</a>
             </nav>
             <a href="#"
                 class="hidden sm:inline-block px-5 py-2 rounded-full bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium shadow-md">Get
@@ -92,7 +92,7 @@
     </header>
 
     <!-- Hero -->
-    <section class="relative overflow-hidden">
+    <section id="home" class="relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
             <div>
                 <p class="text-blue-400 text-sm mb-4">Experience The Best IT Solutions</p>
@@ -134,7 +134,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="relative bg-white text-[#0b1530]">
+    <section id="about" class="relative bg-white text-[#0b1530]">
         <div class="max-w-7xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-12 items-center">
             <!-- Collage -->
             <div class="relative">
@@ -216,7 +216,7 @@
     </section>
 
     <!-- Services Section -->
-    <section class="relative bg-[#f6f8ff]">
+    <section id="services" class="relative bg-[#f6f8ff]">
         <div id="services">
             class="absolute inset-x-0 top-4 select-none pointer-events-none text-[#0b1530]/5 font-extrabold tracking-tight text-6xl md:text-8xl text-center">
             SERVICES</div>
@@ -298,7 +298,7 @@
     </section>
 
     <!-- Work Process Section -->
-    <section class="relative bg-white">
+    <section id="process" class="relative bg-white">
         <div
             class="absolute inset-x-0 top-6 select-none pointer-events-none text-[#0b1530]/5 font-extrabold tracking-tight text-6xl md:text-8xl text-center">
             WORK PROCESS</div>
