@@ -35,7 +35,7 @@
                         <path
                             d="M22.5 8.25v9a2.25 2.25 0 01-2.25 2.25H3.75A2.25 2.25 0 011.5 17.25v-9l8.379 6.29a3.75 3.75 0 004.242 0L22.5 8.25z" />
                     </svg>
-                    <span>example@gmail.com</span>
+                    <span>fikryataya@gmail.com</span>
                 </div>
                 <div class="hidden md:flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
