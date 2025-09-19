@@ -100,14 +100,17 @@
                     Membangun Website dan Aplikasi Profesional
                 </h1>
                 <p class="text-white/80 italic mb-4">“Dari Logika, Hadirkan Solusi.”</p>
-                <p class="text-white/70 mb-8 max-w-xl">Hepta Logic menghadirkan layanan pengembangan website dan aplikasi dengan desain modern, teknologi terbaru, dan hasil yang dapat diandalkan.</p>
+                <p class="text-white/70 mb-8 max-w-xl">Hepta Logic menghadirkan layanan pengembangan website dan
+                    aplikasi dengan desain modern, teknologi terbaru, dan hasil yang dapat diandalkan.</p>
                 <div class="flex items-center gap-4">
                     <a href="#services"
                         class="px-6 py-3 rounded-full bg-blue-500 hover:bg-blue-600 text-white font-medium inline-flex items-center gap-2">
                         <span>Lihat Layanan</span>
                         <span class="inline-grid place-items-center w-5 h-5 rounded-full bg-white/20">→</span>
                     </a>
-                    <a href="#about" class="px-6 py-3 rounded-full bg-white/10 hover:bg-white/20 text-white font-medium">Konsultasi Gratis</a>
+                    <a href="#about"
+                        class="px-6 py-3 rounded-full bg-white/10 hover:bg-white/20 text-white font-medium">Konsultasi
+                        Gratis</a>
                 </div>
             </div>
             <div class="relative">
@@ -616,33 +619,46 @@
                 <!-- Company Info -->
                 <div class="lg:col-span-2">
                     <div class="flex items-center gap-2 mb-6">
-                        <span class="w-9 h-9 rounded-full bg-blue-500 grid place-items-center text-white font-semibold">IT</span>
+                        <span
+                            class="w-9 h-9 rounded-full bg-blue-500 grid place-items-center text-white font-semibold">IT</span>
                         <span class="font-semibold text-xl">IT Company.</span>
                     </div>
                     <p class="text-white/70 text-sm leading-6 mb-6 max-w-md">
-                        Transforming ideas into digital reality with cutting-edge technology solutions. 
+                        Transforming ideas into digital reality with cutting-edge technology solutions.
                         We deliver exceptional IT services that drive business growth and innovation.
                     </p>
                     <!-- Social Links -->
                     <div class="flex items-center gap-3">
-                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 hover:bg-blue-500 transition-colors grid place-items-center group">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 group-hover:scale-110 transition-transform">
-                                <path d="M22.675 0h-21.35C.595 0 0 .594 0 1.326v21.348C0 23.406.595 24 1.326 24h11.495v-9.294H9.691V11.01h3.13V8.41c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.098 2.794.142v3.24l-1.918.001c-1.504 0-1.796.716-1.796 1.766v2.316h3.588l-.467 3.696h-3.121V24h6.116C23.406 24 24 23.406 24 22.674V1.326C24 .594 23.406 0 22.675 0z" />
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white/10 hover:bg-blue-500 transition-colors grid place-items-center group">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-5 h-5 group-hover:scale-110 transition-transform">
+                                <path
+                                    d="M22.675 0h-21.35C.595 0 0 .594 0 1.326v21.348C0 23.406.595 24 1.326 24h11.495v-9.294H9.691V11.01h3.13V8.41c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.098 2.794.142v3.24l-1.918.001c-1.504 0-1.796.716-1.796 1.766v2.316h3.588l-.467 3.696h-3.121V24h6.116C23.406 24 24 23.406 24 22.674V1.326C24 .594 23.406 0 22.675 0z" />
                             </svg>
                         </a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 hover:bg-blue-500 transition-colors grid place-items-center group">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 group-hover:scale-110 transition-transform">
-                                <path d="M23.954 4.569c-.885.392-1.83.656-2.825.775 1.014-.611 1.794-1.574 2.163-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-2.723 0-4.928 2.206-4.928 4.93 0 .386.045.762.127 1.124C7.69 8.095 4.066 6.13 1.64 3.161c-.423.722-.666 1.561-.666 2.475 0 1.708.87 3.213 2.19 4.099-.807-.025-1.566-.248-2.229-.616v.062c0 2.386 1.697 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.376 4.6 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.402 4.768 2.219 7.557 2.219 9.054 0 14.002-7.496 14.002-13.986 0-.21 0-.423-.016-.633.961-.695 1.8-1.562 2.46-2.549z" />
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white/10 hover:bg-blue-500 transition-colors grid place-items-center group">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-5 h-5 group-hover:scale-110 transition-transform">
+                                <path
+                                    d="M23.954 4.569c-.885.392-1.83.656-2.825.775 1.014-.611 1.794-1.574 2.163-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-2.723 0-4.928 2.206-4.928 4.93 0 .386.045.762.127 1.124C7.69 8.095 4.066 6.13 1.64 3.161c-.423.722-.666 1.561-.666 2.475 0 1.708.87 3.213 2.19 4.099-.807-.025-1.566-.248-2.229-.616v.062c0 2.386 1.697 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.376 4.6 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.402 4.768 2.219 7.557 2.219 9.054 0 14.002-7.496 14.002-13.986 0-.21 0-.423-.016-.633.961-.695 1.8-1.562 2.46-2.549z" />
                             </svg>
                         </a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 hover:bg-blue-500 transition-colors grid place-items-center group">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-5 h-5 group-hover:scale-110 transition-transform">
-                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.43.403a4.92 4.92 0 011.77 1.153 4.92 4.92 0 011.153 1.77c.163.46.347 1.26.403 2.43.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.403 2.43a4.92 4.92 0 01-1.153 1.77 4.92 4.92 0 01-1.77 1.153c-.46.163-1.26.347-2.43.403-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.43-.403a4.92 4.92 0 01-1.77-1.153 4.92 4.92 0 01-1.153-1.77c-.163-.46-.347-1.26-.403-2.43C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.056-1.17.24-1.97.403-2.43a4.92 4.92 0 011.153-1.77 4.92 4.92 0 011.77-1.153c.46-.163 1.26-.347 2.43-.403C8.416 2.175 8.796 2.163 12 2.163zm0 3.24a6.597 6.597 0 100 13.194 6.597 6.597 0 000-13.194zm0 10.89a4.293 4.293 0 110-8.586 4.293 4.293 0 010 8.586zm6.406-11.845a1.54 1.54 0 11-3.082 0 1.54 1.54 0 013.082 0z" />
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white/10 hover:bg-blue-500 transition-colors grid place-items-center group">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+                                class="w-5 h-5 group-hover:scale-110 transition-transform">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.43.403a4.92 4.92 0 011.77 1.153 4.92 4.92 0 011.153 1.77c.163.46.347 1.26.403 2.43.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.403 2.43a4.92 4.92 0 01-1.153 1.77 4.92 4.92 0 01-1.77 1.153c-.46.163-1.26.347-2.43.403-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.43-.403a4.92 4.92 0 01-1.77-1.153 4.92 4.92 0 01-1.153-1.77c-.163-.46-.347-1.26-.403-2.43C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.056-1.17.24-1.97.403-2.43a4.92 4.92 0 011.153-1.77 4.92 4.92 0 011.77-1.153c.46-.163 1.26-.347 2.43-.403C8.416 2.175 8.796 2.163 12 2.163zm0 3.24a6.597 6.597 0 100 13.194 6.597 6.597 0 000-13.194zm0 10.89a4.293 4.293 0 110-8.586 4.293 4.293 0 010 8.586zm6.406-11.845a1.54 1.54 0 11-3.082 0 1.54 1.54 0 013.082 0z" />
                             </svg>
                         </a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 hover:bg-blue-500 transition-colors grid place-items-center group">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 group-hover:scale-110 transition-transform">
-                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white/10 hover:bg-blue-500 transition-colors grid place-items-center group">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-5 h-5 group-hover:scale-110 transition-transform">
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
                             </svg>
                         </a>
                     </div>
@@ -652,12 +668,18 @@
                 <div>
                     <h3 class="font-semibold text-lg mb-6">Quick Links</h3>
                     <ul class="space-y-3">
-                        <li><a href="#home" class="text-white/70 hover:text-white transition-colors text-sm">Home</a></li>
-                        <li><a href="#services" class="text-white/70 hover:text-white transition-colors text-sm">Services</a></li>
-                        <li><a href="#projects" class="text-white/70 hover:text-white transition-colors text-sm">Projects</a></li>
-                        <li><a href="#about" class="text-white/70 hover:text-white transition-colors text-sm">About Us</a></li>
-                        <li><a href="#pricing" class="text-white/70 hover:text-white transition-colors text-sm">Pricing</a></li>
-                        <li><a href="#blogs" class="text-white/70 hover:text-white transition-colors text-sm">Blog</a></li>
+                        <li><a href="#home"
+                                class="text-white/70 hover:text-white transition-colors text-sm">Home</a></li>
+                        <li><a href="#services"
+                                class="text-white/70 hover:text-white transition-colors text-sm">Services</a></li>
+                        <li><a href="#projects"
+                                class="text-white/70 hover:text-white transition-colors text-sm">Projects</a></li>
+                        <li><a href="#about" class="text-white/70 hover:text-white transition-colors text-sm">About
+                                Us</a></li>
+                        <li><a href="#pricing"
+                                class="text-white/70 hover:text-white transition-colors text-sm">Pricing</a></li>
+                        <li><a href="#blogs"
+                                class="text-white/70 hover:text-white transition-colors text-sm">Blog</a></li>
                     </ul>
                 </div>
 
@@ -665,12 +687,19 @@
                 <div>
                     <h3 class="font-semibold text-lg mb-6">Services</h3>
                     <ul class="space-y-3">
-                        <li><a href="#" class="text-white/70 hover:text-white transition-colors text-sm">Website Development</a></li>
-                        <li><a href="#" class="text-white/70 hover:text-white transition-colors text-sm">Mobile App Development</a></li>
-                        <li><a href="#" class="text-white/70 hover:text-white transition-colors text-sm">UI/UX Design</a></li>
-                        <li><a href="#" class="text-white/70 hover:text-white transition-colors text-sm">Graphics Design</a></li>
-                        <li><a href="#" class="text-white/70 hover:text-white transition-colors text-sm">Digital Marketing</a></li>
-                        <li><a href="#" class="text-white/70 hover:text-white transition-colors text-sm">Consulting</a></li>
+                        <li><a href="#" class="text-white/70 hover:text-white transition-colors text-sm">Website
+                                Development</a></li>
+                        <li><a href="#" class="text-white/70 hover:text-white transition-colors text-sm">Mobile
+                                App Development</a></li>
+                        <li><a href="#" class="text-white/70 hover:text-white transition-colors text-sm">UI/UX
+                                Design</a></li>
+                        <li><a href="#"
+                                class="text-white/70 hover:text-white transition-colors text-sm">Graphics Design</a>
+                        </li>
+                        <li><a href="#" class="text-white/70 hover:text-white transition-colors text-sm">Digital
+                                Marketing</a></li>
+                        <li><a href="#"
+                                class="text-white/70 hover:text-white transition-colors text-sm">Consulting</a></li>
                     </ul>
                 </div>
             </div>
@@ -681,8 +710,10 @@
                     <!-- Phone -->
                     <div class="flex items-center gap-3">
                         <div class="w-10 h-10 rounded-lg bg-blue-500/20 grid place-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-blue-400">
-                                <path d="M2.25 6.75c0-1.243 1.007-2.25 2.25-2.25h3.5c.966 0 1.818.62 2.121 1.539l.89 2.672a2.25 2.25 0 01-.54 2.297l-1.116 1.117a16.5 16.5 0 006.364 6.364l1.116-1.116a2.25 2.25 0 012.298-.54l2.671.89A2.25 2.25 0 0121.5 18v3.5a2.25 2.25 0 01-2.25 2.25H18C9.716 23.75 2.25 16.284 2.25 8V6.75z" />
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-5 h-5 text-blue-400">
+                                <path
+                                    d="M2.25 6.75c0-1.243 1.007-2.25 2.25-2.25h3.5c.966 0 1.818.62 2.121 1.539l.89 2.672a2.25 2.25 0 01-.54 2.297l-1.116 1.117a16.5 16.5 0 006.364 6.364l1.116-1.116a2.25 2.25 0 012.298-.54l2.671.89A2.25 2.25 0 0121.5 18v3.5a2.25 2.25 0 01-2.25 2.25H18C9.716 23.75 2.25 16.284 2.25 8V6.75z" />
                             </svg>
                         </div>
                         <div>
@@ -694,9 +725,12 @@
                     <!-- Email -->
                     <div class="flex items-center gap-3">
                         <div class="w-10 h-10 rounded-lg bg-blue-500/20 grid place-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-blue-400">
-                                <path d="M1.5 6.75A2.25 2.25 0 013.75 4.5h16.5a2.25 2.25 0 012.25 2.25v.243a2.25 2.25 0 01-.879 1.8l-7.5 5.625a2.25 2.25 0 01-2.742 0L2.38 8.793A2.25 2.25 0 011.5 6.993V6.75z" />
-                                <path d="M22.5 8.25v9a2.25 2.25 0 01-2.25 2.25H3.75A2.25 2.25 0 011.5 17.25v-9l8.379 6.29a3.75 3.75 0 004.242 0L22.5 8.25z" />
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-5 h-5 text-blue-400">
+                                <path
+                                    d="M1.5 6.75A2.25 2.25 0 013.75 4.5h16.5a2.25 2.25 0 012.25 2.25v.243a2.25 2.25 0 01-.879 1.8l-7.5 5.625a2.25 2.25 0 01-2.742 0L2.38 8.793A2.25 2.25 0 011.5 6.993V6.75z" />
+                                <path
+                                    d="M22.5 8.25v9a2.25 2.25 0 01-2.25 2.25H3.75A2.25 2.25 0 011.5 17.25v-9l8.379 6.29a3.75 3.75 0 004.242 0L22.5 8.25z" />
                             </svg>
                         </div>
                         <div>
@@ -708,8 +742,11 @@
                     <!-- Address -->
                     <div class="flex items-center gap-3">
                         <div class="w-10 h-10 rounded-lg bg-blue-500/20 grid place-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-blue-400">
-                                <path fill-rule="evenodd" d="M11.47.659a.75.75 0 01.997 0l9 8.25a.75.75 0 01-1.004 1.112L21 9.277V21a2.25 2.25 0 01-2.25 2.25h-4.5a.75.75 0 01-.75-.75v-5.25a1.5 1.5 0 00-1.5-1.5h-1.5a1.5 1.5 0 00-1.5 1.5v5.25a.75.75 0 01-.75.75h-4.5A2.25 2.25 0 013 21V9.277l-.463.744a.75.75 0 11-1.004-1.112l9-8.25z" clip-rule="evenodd" />
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-5 h-5 text-blue-400">
+                                <path fill-rule="evenodd"
+                                    d="M11.47.659a.75.75 0 01.997 0l9 8.25a.75.75 0 01-1.004 1.112L21 9.277V21a2.25 2.25 0 01-2.25 2.25h-4.5a.75.75 0 01-.75-.75v-5.25a1.5 1.5 0 00-1.5-1.5h-1.5a1.5 1.5 0 00-1.5 1.5v5.25a.75.75 0 01-.75.75h-4.5A2.25 2.25 0 013 21V9.277l-.463.744a.75.75 0 11-1.004-1.112l9-8.25z"
+                                    clip-rule="evenodd" />
                             </svg>
                         </div>
                         <div>
@@ -727,9 +764,12 @@
                         © 2024 IT Company. All rights reserved. Designed with ❤️ for your success.
                     </p>
                     <div class="flex items-center gap-6">
-                        <a href="#" class="text-white/60 hover:text-white transition-colors text-sm">Privacy Policy</a>
-                        <a href="#" class="text-white/60 hover:text-white transition-colors text-sm">Terms of Service</a>
-                        <a href="#" class="text-white/60 hover:text-white transition-colors text-sm">Cookie Policy</a>
+                        <a href="#" class="text-white/60 hover:text-white transition-colors text-sm">Privacy
+                            Policy</a>
+                        <a href="#" class="text-white/60 hover:text-white transition-colors text-sm">Terms of
+                            Service</a>
+                        <a href="#" class="text-white/60 hover:text-white transition-colors text-sm">Cookie
+                            Policy</a>
                     </div>
                 </div>
             </div>
