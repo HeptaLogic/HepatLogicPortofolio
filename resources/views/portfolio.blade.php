@@ -132,6 +132,274 @@
             </div>
         </div>
     </section>
+
+    <!-- About Section -->
+    <section class="relative bg-white text-[#0b1530]">
+        <div class="max-w-7xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-12 items-center">
+            <!-- Collage -->
+            <div class="relative">
+                <div class="relative grid grid-cols-2 gap-4 w-full max-w-[540px]">
+                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md">
+                        <img class="w-full h-48 md:h-56 object-cover"
+                            src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=800&auto=format&fit=crop"
+                            alt="team-1">
+                    </div>
+                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md">
+                        <img class="w-full h-48 md:h-56 object-cover"
+                            src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=800&auto=format&fit=crop"
+                            alt="team-2">
+                    </div>
+                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md">
+                        <img class="w-full h-48 md:h-56 object-cover"
+                            src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=800&auto=format&fit=crop"
+                            alt="team-3">
+                    </div>
+                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md">
+                        <img class="w-full h-48 md:h-56 object-cover"
+                            src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?q=80&w=800&auto=format&fit=crop"
+                            alt="team-4">
+                    </div>
+                </div>
+
+                <!-- Badge -->
+                <div class="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
+                    <div
+                        class="w-24 h-24 rounded-full bg-white shadow-lg grid place-items-center border-2 border-blue-500">
+                        <div
+                            class="w-16 h-16 rounded-full bg-blue-600 grid place-items-center text-white text-xs font-semibold">
+                            10+<br />Years</div>
+                    </div>
+                </div>
+
+                <!-- Decorative stars -->
+                <div class="absolute -left-6 bottom-10 text-blue-600">
+                    <div class="relative">
+                        <span class="inline-block w-3 h-3 bg-blue-600 rotate-45"></span>
+                        <span class="inline-block w-2 h-2 bg-blue-400 rotate-45 ml-3"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div>
+                <p class="text-blue-500 text-sm mb-2">// About Us</p>
+                <h2 class="text-3xl md:text-4xl font-semibold leading-tight mb-4">
+                    Transforming <span class="text-blue-600">Ideas</span><br class="hidden md:block" /> into <span
+                        class="text-blue-600">Digital Reality</span>
+                </h2>
+                <p class="text-slate-600 mb-8 max-w-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore.</p>
+
+                <!-- Metrics -->
+                <div class="grid grid-cols-3 gap-6 mb-10">
+                    <div>
+                        <div class="text-xl font-semibold text-blue-600">150+</div>
+                        <div class="text-[12px] text-slate-500">Team Members</div>
+                    </div>
+                    <div>
+                        <div class="text-xl font-semibold text-blue-600">2000+</div>
+                        <div class="text-[12px] text-slate-500">Happy Clients</div>
+                    </div>
+                    <div>
+                        <div class="text-xl font-semibold text-blue-600">99%</div>
+                        <div class="text-[12px] text-slate-500">Client Satisfaction</div>
+                    </div>
+                </div>
+
+                <!-- Signature -->
+                <div>
+                    <div class="font-medium text-lg mb-1">Jenny Alexander</div>
+                    <div class="text-[12px] text-slate-500">Jenny Alexander • CEO</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="relative bg-[#f6f8ff]">
+        <div
+            class="absolute inset-x-0 top-4 select-none pointer-events-none text-[#0b1530]/5 font-extrabold tracking-tight text-6xl md:text-8xl text-center">
+            SERVICES</div>
+        <div class="max-w-7xl mx-auto px-4 py-20">
+            <div class="flex items-start justify-between gap-6 mb-10">
+                <div>
+                    <p class="text-blue-500 text-sm mb-2">// Our Services</p>
+                    <h2 class="text-[28px] md:text-4xl font-semibold text-[#0b1530] leading-snug">Services We Provide
+                        to<br /><span class="text-blue-600">Elevate Your Business</span></h2>
+                </div>
+                <a href="#"
+                    class="shrink-0 h-10 px-5 rounded-full bg-blue-600 hover:bg-blue-700 text-white text-sm grid place-items-center shadow-md">View
+                    All Services</a>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden">
+                    <div class="p-6">
+                        <div
+                            class="w-12 h-12 rounded-xl bg-blue-600/10 text-blue-600 grid place-items-center mb-4 shadow-inner">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-6 h-6">
+                                <path d="M4.5 5.25A2.25 2.25 0 016.75 3h10.5A2.25 2.25 0 0119.5 5.25v.75h-15v-.75z" />
+                                <path fill-rule="evenodd"
+                                    d="M3 7.5h18v9.75A2.25 2.25 0 0118.75 19.5H5.25A2.25 2.25 0 013 17.25V7.5zm5.25 9a.75.75 0 000 1.5h7.5a.75.75 0 000-1.5h-7.5z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <h3 class="font-semibold text-[#0b1530] mb-2">Website Development</h3>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Learn more
+                            <span>→</span></a>
+                    </div>
+                    <div class="h-[3px] bg-gradient-to-r from-blue-600 to-blue-400"></div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden">
+                    <div class="p-6">
+                        <div
+                            class="w-12 h-12 rounded-xl bg-blue-600/10 text-blue-600 grid place-items-center mb-4 shadow-inner">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-6 h-6">
+                                <path
+                                    d="M7.5 1.5A2.25 2.25 0 005.25 3.75v16.5A2.25 2.25 0 007.5 22.5h9a2.25 2.25 0 002.25-2.25V3.75A2.25 2.25 0 0016.5 1.5h-9zM9 3.75h6v.75H9v-.75zM12 19.5a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25z" />
+                            </svg>
+                        </div>
+                        <h3 class="font-semibold text-[#0b1530] mb-2">Mobile App Development</h3>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Learn more
+                            <span>→</span></a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden">
+                    <div class="p-6">
+                        <div
+                            class="w-12 h-12 rounded-xl bg-blue-600/10 text-blue-600 grid place-items-center mb-4 shadow-inner">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-6 h-6">
+                                <path
+                                    d="M3 6.75A2.25 2.25 0 015.25 4.5h13.5A2.25 2.25 0 0121 6.75v10.5A2.25 2.25 0 0118.75 19.5H5.25A2.25 2.25 0 013 17.25V6.75z" />
+                                <path d="M7.5 7.5h3v3h-3v-3zM13.5 7.5h3v3h-3v-3zM7.5 13.5h9v3h-9v-3z" />
+                            </svg>
+                        </div>
+                        <h3 class="font-semibold text-[#0b1530] mb-2">UI/UX Design</h3>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Learn more
+                            <span>→</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Process Section -->
+    <section class="relative bg-white">
+        <div
+            class="absolute inset-x-0 top-6 select-none pointer-events-none text-[#0b1530]/5 font-extrabold tracking-tight text-6xl md:text-8xl text-center">
+            WORK PROCESS</div>
+        <div class="max-w-7xl mx-auto px-4 py-20 text-center">
+            <p class="text-blue-500 text-sm mb-2">// Our Work Process</p>
+            <h2 class="text-[28px] md:text-4xl font-semibold text-[#0b1530] mb-12">Our Proven <span
+                    class="text-blue-600">Work Process</span></h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-6 items-start relative">
+                <div class="hidden md:block absolute left-0 right-0 top-8 h-px bg-slate-200"></div>
+                <!-- Step 1 -->
+                <div class="flex flex-col items-center">
+                    <div class="relative mb-4">
+                        <div
+                            class="w-16 h-16 rounded-full bg-blue-600 text-white grid place-items-center ring-8 ring-blue-600/10">
+                            <!-- chat icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-7 h-7">
+                                <path
+                                    d="M1.5 6.75A2.25 2.25 0 013.75 4.5h12.5A2.25 2.25 0 0118.5 6.75v5A2.25 2.25 0 0116.25 14.5H7.06l-3.138 2.351A.75.75 0 012 16.25v-9.5z" />
+                                <path
+                                    d="M6.75 7.5h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 010-1.5zM6.75 10.5h5a.75.75 0 010 1.5h-5a.75.75 0 010-1.5z" />
+                            </svg>
+                        </div>
+                        <div
+                            class="absolute -right-4 bottom-0 bg-[#0b1530] text-white text-xs font-semibold rounded-full px-2 py-1 shadow">
+                            01</div>
+                    </div>
+                    <div class="font-semibold text-[#0b1530] mb-1">Consultation</div>
+                    <div class="text-slate-500 text-sm leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit</div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="flex flex-col items-center">
+                    <div class="relative mb-4">
+                        <div
+                            class="w-16 h-16 rounded-full bg-blue-600 text-white grid place-items-center ring-8 ring-blue-600/10">
+                            <!-- bulb icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-7 h-7">
+                                <path
+                                    d="M12 2.25a6.75 6.75 0 00-3.9 12.309c.31.22.525.54.6.905l.2 1a1.125 1.125 0 001.107.881h3.986a1.125 1.125 0 001.107-.881l.2-1a1.5 1.5 0 01.6-.905A6.75 6.75 0 0012 2.25z" />
+                                <path d="M9 19.5h6a.75.75 0 010 1.5H9a.75.75 0 010-1.5z" />
+                            </svg>
+                        </div>
+                        <div
+                            class="absolute -right-4 bottom-0 bg-[#0b1530] text-white text-xs font-semibold rounded-full px-2 py-1 shadow">
+                            02</div>
+                    </div>
+                    <div class="font-semibold text-[#0b1530] mb-1">Strategy</div>
+                    <div class="text-slate-500 text-sm leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit</div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="flex flex-col items-center">
+                    <div class="relative mb-4">
+                        <div
+                            class="w-16 h-16 rounded-full bg-blue-600 text-white grid place-items-center ring-8 ring-blue-600/10">
+                            <!-- stack icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-7 h-7">
+                                <path d="M12 3l8.485 4.243L12 11.485 3.515 7.243 12 3z" />
+                                <path d="M3.515 12.257L12 16.5l8.485-4.243" />
+                                <path d="M3.515 16.257L12 20.5l8.485-4.243" />
+                            </svg>
+                        </div>
+                        <div
+                            class="absolute -right-4 bottom-0 bg-[#0b1530] text-white text-xs font-semibold rounded-full px-2 py-1 shadow">
+                            03</div>
+                    </div>
+                    <div class="font-semibold text-[#0b1530] mb-1">Implementation</div>
+                    <div class="text-slate-500 text-sm leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit</div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="flex flex-col items-center">
+                    <div class="relative mb-4">
+                        <div
+                            class="w-16 h-16 rounded-full bg-blue-600 text-white grid place-items-center ring-8 ring-blue-600/10">
+                            <!-- smile icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-7 h-7">
+                                <path fill-rule="evenodd"
+                                    d="M12 2.25a9.75 9.75 0 100 19.5 9.75 9.75 0 000-19.5zM9 10.5a1.125 1.125 0 110-2.25 1.125 1.125 0 010 2.25zm6 0a1.125 1.125 0 110-2.25 1.125 1.125 0 010 2.25zM7.875 13.5a.75.75 0 01.75.75 3.375 3.375 0 006.75 0 .75.75 0 111.5 0 4.875 4.875 0 01-9.75 0 .75.75 0 01.75-.75z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <div
+                            class="absolute -right-4 bottom-0 bg-[#0b1530] text-white text-xs font-semibold rounded-full px-2 py-1 shadow">
+                            04</div>
+                    </div>
+                    <div class="font-semibold text-[#0b1530] mb-1">Final Result</div>
+                    <div class="text-slate-500 text-sm leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit</div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
