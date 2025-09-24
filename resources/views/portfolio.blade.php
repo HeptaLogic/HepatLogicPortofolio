@@ -218,11 +218,10 @@
     <section id="services" class="relative bg-[#f6f8ff]">
         <div
             class="absolute inset-x-0 top-4 select-none pointer-events-none text-[#0b1530]/5 font-extrabold tracking-tight text-6xl md:text-8xl text-center">
-            SERVICES</div>
+            OUR SERVICES</div>
         <div class="max-w-7xl mx-auto px-4 py-20">
             <div class="flex items-start justify-between gap-6 mb-10">
                 <div>
-                    <p class="text-blue-500 text-sm mb-2">// Our Services</p>
                     <h2 class="text-[28px] md:text-4xl font-semibold text-[#0b1530] leading-snug" data-split>Services
                         We Provide
                         to<br /><span class="text-blue-600">Elevate Your Business</span></h2>
@@ -300,10 +299,9 @@
     <!-- Work Process Section -->
     <section id="process" class="relative bg-white">
         <div
-            class="absolute inset-x-0 top-6 select-none pointer-events-none text-[#0b1530]/5 font-extrabold tracking-tight text-6xl md:text-8xl text-center">
+            class="absolute inset-x-0 top-32 select-none pointer-events-none text-[#0b1530]/5 font-extrabold tracking-tight text-6xl md:text-8xl text-center">
             WORK PROCESS</div>
         <div class="max-w-7xl mx-auto px-4 py-20 text-center">
-            <p class="text-blue-500 text-sm mb-2">// Our Work Process</p>
             <h2 class="text-[28px] md:text-4xl font-semibold text-[#0b1530] mb-12" data-split>Our Proven <span
                     class="text-blue-600">Work Process</span></h2>
 
