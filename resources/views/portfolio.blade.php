@@ -25,7 +25,7 @@
                         <path
                             d="M2.25 6.75c0-1.243 1.007-2.25 2.25-2.25h3.5c.966 0 1.818.62 2.121 1.539l.89 2.672a2.25 2.25 0 01-.54 2.297l-1.116 1.117a16.5 16.5 0 006.364 6.364l1.116-1.116a2.25 2.25 0 012.298-.54l2.671.89A2.25 2.25 0 0121.5 18v3.5a2.25 2.25 0 01-2.25 2.25H18C9.716 23.75 2.25 16.284 2.25 8V6.75z" />
                     </svg>
-                    <span>(000) 000-0000</span>
+                    <span>(+62) 812-3456-7890</span>
                 </div>
                 <div class="hidden sm:flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -35,7 +35,7 @@
                         <path
                             d="M22.5 8.25v9a2.25 2.25 0 01-2.25 2.25H3.75A2.25 2.25 0 011.5 17.25v-9l8.379 6.29a3.75 3.75 0 004.242 0L22.5 8.25z" />
                     </svg>
-                    <span>example@gmail.com</span>
+                    <span>hello@heptalogic.team</span>
                 </div>
                 <div class="hidden md:flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -44,7 +44,7 @@
                             d="M11.47.659a.75.75 0 01.997 0l9 8.25a.75.75 0 01-1.004 1.112L21 9.277V21a2.25 2.25 0 01-2.25 2.25h-4.5a.75.75 0 01-.75-.75v-5.25a1.5 1.5 0 00-1.5-1.5h-1.5a1.5 1.5 0 00-1.5 1.5v5.25a.75.75 0 01-.75.75h-4.5A2.25 2.25 0 013 21V9.277l-.463.744a.75.75 0 11-1.004-1.112l9-8.25z"
                             clip-rule="evenodd" />
                     </svg>
-                    <span>2464 Royal Ln. Mesa, New Jersey 45463</span>
+                    <span>Jakarta, Indonesia</span>
                 </div>
             </div>
             <div class="hidden sm:flex items-center gap-3">
@@ -95,12 +95,12 @@
     <section id="home" class="relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
             <div>
-                <p class="text-blue-400 text-sm mb-2">Solusi Digital Terpercaya</p>
+                <p class="text-blue-400 text-sm mb-2">HeptaLogicTeam • Rekayasa Perangkat Lunak</p>
                 <h1 class="text-4xl md:text-5xl font-semibold leading-tight mb-3" data-split-done>
-                    Membangun Website dan Aplikasi Profesional
+                    Solusi Web & Mobile untuk Pertumbuhan Bisnis Anda
                 </h1>
-                <p class="text-white/80 italic mb-4">“Dari Logika, Hadirkan Solusi.”</p>
-                <p class="text-white/70 mb-8 max-w-xl">Hepta Logic menghadirkan layanan pengembangan website dan aplikasi dengan desain modern, teknologi terbaru, dan hasil yang dapat diandalkan.</p>
+                <p class="text-white/80 italic mb-4">“Dari logika, Hadirkan solusi.”</p>
+                <p class="text-white/70 mb-8 max-w-xl">Kami membantu startup dan perusahaan membangun aplikasi website dan mobile yang cepat, aman, dan mudah di-scale—dengan desain modern dan teknologi yang tepat guna.</p>
                 <div class="flex items-center gap-4">
                     <a href="#services"
                         class="px-6 py-3 rounded-full bg-blue-500 hover:bg-blue-600 text-white font-medium inline-flex items-center gap-2">
@@ -123,9 +123,9 @@
             <div
                 class="max-w-7xl mx-auto px-4 py-4 grid grid-cols-2 md:grid-cols-4 gap-3 text-center text-white font-medium">
                 <div>Website Development</div>
-                <div>UX/UI Design</div>
-                <div>Graphics Design</div>
-                <div class="hidden md:block">App Development</div>
+                <div>Mobile App Development</div>
+                <div>Custom Systems (ERP/CRM)</div>
+                <div class="hidden md:block">UI/UX Design</div>
             </div>
         </div>
     </section>
@@ -181,34 +181,56 @@
 
             <!-- Content -->
             <div>
-                <p class="text-blue-500 text-sm mb-2">// About Us</p>
-                <h2 class="text-3xl md:text-4xl font-semibold leading-tight mb-4" data-split>
-                    Transforming <span class="text-blue-600">Ideas</span><br class="hidden md:block" /> into <span
-                        class="text-blue-600">Digital Reality</span>
+                <p class="text-blue-500 text-sm mb-4">// About Us</p>
+                <h2 class="text-3xl md:text-4xl font-semibold leading-tight mb-6">
+                    Solusi <span class="text-blue-600">Digital</span><br class="hidden md:block" /> Untuk <span
+                        class="text-blue-600">Masa Depan</span>
                 </h2>
-                <p class="text-slate-600 mb-8 max-w-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore.</p>
+                <p class="text-slate-600 mb-8 max-w-xl">Kami adalah tim profesional yang berfokus pada pengembangan perangkat lunak berkualitas tinggi. Spesialisasi kami meliputi pembuatan aplikasi website, aplikasi mobile, dan solusi teknologi digital yang inovatif untuk membantu bisnis Anda berkembang di era digital.</p>
+
+                <!-- Services -->
+                <div class="mb-8">
+                    <h3 class="text-lg font-semibold text-slate-800 mb-4">Layanan Kami:</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+                            <span class="text-slate-600">Aplikasi Website</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+                            <span class="text-slate-600">Aplikasi Mobile</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+                            <span class="text-slate-600">Sistem Manajemen</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+                            <span class="text-slate-600">Konsultasi IT</span>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- Metrics -->
                 <div class="grid grid-cols-3 gap-6 mb-10">
                     <div>
-                        <div class="text-xl font-semibold text-blue-600">150+</div>
-                        <div class="text-[12px] text-slate-500">Team Members</div>
+                        <div class="text-xl font-semibold text-blue-600">50+</div>
+                        <div class="text-[12px] text-slate-500">Proyek Selesai</div>
                     </div>
                     <div>
-                        <div class="text-xl font-semibold text-blue-600">2000+</div>
-                        <div class="text-[12px] text-slate-500">Happy Clients</div>
+                        <div class="text-xl font-semibold text-blue-600">25+</div>
+                        <div class="text-[12px] text-slate-500">Klien Puas</div>
                     </div>
                     <div>
-                        <div class="text-xl font-semibold text-blue-600">99%</div>
-                        <div class="text-[12px] text-slate-500">Client Satisfaction</div>
+                        <div class="text-xl font-semibold text-blue-600">100%</div>
+                        <div class="text-[12px] text-slate-500">Kualitas Terjamin</div>
                     </div>
                 </div>
 
                 <!-- Signature -->
                 <div>
-                    <div class="font-medium text-lg mb-1">Jenny Alexander</div>
-                    <div class="text-[12px] text-slate-500">Jenny Alexander • CEO</div>
+                    <div class="font-medium text-lg mb-1">HepatLogic Team</div>
+                    <div class="text-[12px] text-slate-500">Tim Pengembang Perangkat Lunak</div>
                 </div>
             </div>
         </div>
@@ -222,9 +244,8 @@
         <div class="max-w-7xl mx-auto px-4 py-20">
             <div class="flex items-start justify-between gap-6 mb-10">
                 <div>
-                    <h2 class="text-[28px] md:text-4xl font-semibold text-[#0b1530] leading-snug" data-split>Services
-                        We Provide
-                        to<br /><span class="text-blue-600">Elevate Your Business</span></h2>
+                    <h2 class="text-[28px] md:text-4xl font-semibold text-[#0b1530] leading-snug">Layanan HeptaLogic
+                        untuk<br /><span class="text-blue-600">Mendorong Bisnis Anda</span></h2>
                 </div>
                 <a href="#"
                     class="shrink-0 h-10 px-5 rounded-full bg-blue-600 hover:bg-blue-700 text-white text-sm grid place-items-center shadow-md">View
@@ -246,9 +267,8 @@
                             </svg>
                         </div>
                         <h3 class="font-semibold text-[#0b1530] mb-2">Website Development</h3>
-                        <p class="text-slate-500 text-sm leading-6 mb-5">Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
-                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Learn more
+                        <p class="text-slate-500 text-sm leading-6 mb-5">Website modern, responsif, dan cepat—dibangun dengan praktik terbaik SEO, keamanan, dan performa untuk mendukung konversi bisnis Anda.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Pelajari lebih lanjut
                             <span>→</span></a>
                     </div>
                     <div class="h-[3px] bg-gradient-to-r from-blue-600 to-blue-400"></div>
@@ -266,9 +286,8 @@
                             </svg>
                         </div>
                         <h3 class="font-semibold text-[#0b1530] mb-2">Mobile App Development</h3>
-                        <p class="text-slate-500 text-sm leading-6 mb-5">Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
-                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Learn more
+                        <p class="text-slate-500 text-sm leading-6 mb-5">Aplikasi iOS/Android yang stabil dan scalable. Native atau cross‑platform sesuai kebutuhan dan target waktu Anda.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Pelajari lebih lanjut
                             <span>→</span></a>
                     </div>
                 </div>
@@ -286,9 +305,8 @@
                             </svg>
                         </div>
                         <h3 class="font-semibold text-[#0b1530] mb-2">UI/UX Design</h3>
-                        <p class="text-slate-500 text-sm leading-6 mb-5">Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
-                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Learn more
+                        <p class="text-slate-500 text-sm leading-6 mb-5">Desain berpusat pada pengguna dengan alur yang jelas—meningkatkan keterlibatan, retensi, dan kepuasan pelanggan.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Pelajari lebih lanjut
                             <span>→</span></a>
                     </div>
                 </div>
@@ -302,8 +320,8 @@
             class="absolute inset-x-0 top-32 select-none pointer-events-none text-[#0b1530]/5 font-extrabold tracking-tight text-6xl md:text-8xl text-center">
             WORK PROCESS</div>
         <div class="max-w-7xl mx-auto px-4 py-20 text-center">
-            <h2 class="text-[28px] md:text-4xl font-semibold text-[#0b1530] mb-12" data-split>Our Proven <span
-                    class="text-blue-600">Work Process</span></h2>
+            <h2 class="text-[28px] md:text-4xl font-semibold text-[#0b1530] mb-12">Proses Kerja <span
+                    class="text-blue-600">Terbukti</span> Kami</h2>
 
             <div class="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-6 items-start relative">
                 <div class="hidden md:block absolute left-0 right-0 top-8 h-px bg-slate-200"></div>
@@ -325,9 +343,8 @@
                             class="absolute -right-4 bottom-0 bg-[#0b1530] text-white text-xs font-semibold rounded-full px-2 py-1 shadow">
                             01</div>
                     </div>
-                    <div class="font-semibold text-[#0b1530] mb-1">Consultation</div>
-                    <div class="text-slate-500 text-sm leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit</div>
+                    <div class="font-semibold text-[#0b1530] mb-1">Konsultasi</div>
+                    <div class="text-slate-500 text-sm leading-6">Memahami tujuan bisnis, kendala, dan kebutuhan pengguna.</div>
                 </div>
 
                 <!-- Step 2 -->
@@ -347,9 +364,8 @@
                             class="absolute -right-4 bottom-0 bg-[#0b1530] text-white text-xs font-semibold rounded-full px-2 py-1 shadow">
                             02</div>
                     </div>
-                    <div class="font-semibold text-[#0b1530] mb-1">Strategy</div>
-                    <div class="text-slate-500 text-sm leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit</div>
+                    <div class="font-semibold text-[#0b1530] mb-1">Strategi</div>
+                    <div class="text-slate-500 text-sm leading-6">Menyusun roadmap, arsitektur, dan pilihan teknologi.</div>
                 </div>
 
                 <!-- Step 3 -->
@@ -369,9 +385,8 @@
                             class="absolute -right-4 bottom-0 bg-[#0b1530] text-white text-xs font-semibold rounded-full px-2 py-1 shadow">
                             03</div>
                     </div>
-                    <div class="font-semibold text-[#0b1530] mb-1">Implementation</div>
-                    <div class="text-slate-500 text-sm leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit</div>
+                    <div class="font-semibold text-[#0b1530] mb-1">Implementasi</div>
+                    <div class="text-slate-500 text-sm leading-6">Pengembangan iteratif, QA ketat, dan CI/CD.</div>
                 </div>
 
                 <!-- Step 4 -->
@@ -391,9 +406,8 @@
                             class="absolute -right-4 bottom-0 bg-[#0b1530] text-white text-xs font-semibold rounded-full px-2 py-1 shadow">
                             04</div>
                     </div>
-                    <div class="font-semibold text-[#0b1530] mb-1">Final Result</div>
-                    <div class="text-slate-500 text-sm leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit</div>
+                    <div class="font-semibold text-[#0b1530] mb-1">Hasil</div>
+                    <div class="text-slate-500 text-sm leading-6">Rilis terukur, performa optimal, siap untuk scale.</div>
                 </div>
             </div>
         </div>
@@ -414,9 +428,9 @@
 
             <div class="flex items-start justify-between mb-8">
                 <div>
-                    <p class="text-white/70 text-sm mb-2">Why Choose Us</p>
-                    <h2 class="text-3xl md:text-4xl font-semibold leading-snug" data-split>Why Trust Us for<br />Your
-                        IT Needs?
+                    <p class="text-white/70 text-sm mb-2">Mengapa Memilih Kami</p>
+                    <h2 class="text-3xl md:text-4xl font-semibold leading-snug">Partner Tepat untuk<br/>
+                        Kebutuhan IT Anda
                     </h2>
                 </div>
                 <div id="magnet-cta"></div>
@@ -452,9 +466,8 @@
                             </svg>
                         </div>
                         <div>
-                            <div class="font-semibold">Affordable Price</div>
-                            <p class="text-white/70 text-xs leading-6 max-w-[240px]">Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit</p>
+                            <div class="font-semibold">Aman & Scalable</div>
+                            <p class="text-white/70 text-xs leading-6 max-w-[240px]">Arsitektur handal, kinerja tinggi, siap tumbuh mengikuti bisnis.</p>
                         </div>
                     </div>
                     <div class="flex items-start gap-4">
@@ -462,13 +475,12 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                 class="w-6 h-6">
                                 <path
-                                    d="M12 2.25a9.75 9.75 0 100 19.5 9.75 9.75 0 000-19.5zM8.625 9.75a.75.75 0 111.5 0 .75.75 0 01-1.5 0zm5.25 0a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM8.25 13.5a3.75 3.75 0 007.5 0 .75.75 0 111.5 0 5.25 5.25 0 01-10.5 0 .75.75 0 011.5 0z" />
+                                    d="M12 2.25a9.75 9.75 0 100 19.5 9.75 9.75 0 000-19.5zM8.625 9.75a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM15.75 9.75a.75.75 0 111.5 0 .75.75 0 01-1.5 0z" />
                             </svg>
                         </div>
                         <div>
-                            <div class="font-semibold">Professional Team</div>
-                            <p class="text-white/70 text-xs leading-6 max-w-[240px]">Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit</p>
+                            <div class="font-semibold">Engineer Berpengalaman</div>
+                            <p class="text-white/70 text-xs leading-6 max-w-[240px]">Keahlian lintas web, mobile, dan cloud dengan standar industri.</p>
                         </div>
                     </div>
                     <div class="flex items-start gap-4">
@@ -479,9 +491,8 @@
                             </svg>
                         </div>
                         <div>
-                            <div class="font-semibold">18+ Years Experience</div>
-                            <p class="text-white/70 text-xs leading-6 max-w-[240px]">Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit</p>
+                            <div class="font-semibold">Delivery Tepat Waktu</div>
+                            <p class="text-white/70 text-xs leading-6 max-w-[240px]">Perencanaan realistis, eksekusi disiplin, rilis sesuai target.</p>
                         </div>
                     </div>
                     <div class="flex items-start gap-4">
@@ -493,9 +504,8 @@
                             </svg>
                         </div>
                         <div>
-                            <div class="font-semibold">Award Winning</div>
-                            <p class="text-white/70 text-xs leading-6 max-w-[240px]">Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit</p>
+                            <div class="font-semibold">Dukungan Berkelanjutan</div>
+                            <p class="text-white/70 text-xs leading-6 max-w-[240px]">Pendampingan pasca‑rilis, monitoring, dan iterasi berkesinambungan.</p>
                         </div>
                     </div>
                 </div>
@@ -514,11 +524,11 @@
             LATEST PROJECTS</div>
         <div class="max-w-7xl mx-auto px-4 py-20">
             <div class="text-center mb-10">
-                <p class="text-blue-500 text-sm mb-2">// Our Latest Projects</p>
-                <h2 class="text-3xl md:text-4xl font-semibold text-[#0b1530]" data-split>
-                    Explore Our Showcase of
+                    <p class="text-blue-500 text-sm mb-2">// Proyek Terbaru Kami</p>
+                    <h2 class="text-3xl md:text-4xl font-semibold text-[#0b1530]">
+                    Jelajahi Karya Unggulan
                     <br class="hidden md:block" />
-                    <span class="text-blue-600">Featured Works</span>
+                    <span class="text-blue-600">HeptaLogic</span>
                 </h2>
             </div>
 
@@ -530,11 +540,11 @@
                         alt="project-1">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                     <div class="absolute left-0 right-0 bottom-0 p-5 text-white">
-                        <h3 class="font-semibold leading-snug">Care Connect - Doctor Appointment App</h3>
+                        <h3 class="font-semibold leading-snug">Care Connect — Aplikasi Janji Dokter</h3>
                         <div class="mt-3 flex flex-wrap gap-2 text-[11px]">
-                            <span class="px-2 py-1 rounded-full bg-white/15">UI/UX Design</span>
-                            <span class="px-2 py-1 rounded-full bg-white/15">App Design</span>
-                            <span class="px-2 py-1 rounded-full bg-white/15">Wireframe</span>
+                            <span class="px-2 py-1 rounded-full bg-white/15">Flutter</span>
+                            <span class="px-2 py-1 rounded-full bg-white/15">Firebase</span>
+                            <span class="px-2 py-1 rounded-full bg-white/15">Clean Architecture</span>
                         </div>
                     </div>
                     <button
@@ -548,12 +558,11 @@
                         alt="project-2">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                     <div class="absolute left-0 right-0 bottom-0 p-5 text-white">
-                        <h3 class="font-semibold leading-snug">Dental - Dentist and Dental Clinic Website UI/UX Design
-                        </h3>
+                        <h3 class="font-semibold leading-snug">Dental — Website Klinik Gigi Profesional</h3>
                         <div class="mt-3 flex flex-wrap gap-2 text-[11px]">
-                            <span class="px-2 py-1 rounded-full bg-white/15">UI/UX Design</span>
-                            <span class="px-2 py-1 rounded-full bg-white/15">Web Design</span>
-                            <span class="px-2 py-1 rounded-full bg-white/15">Wireframe</span>
+                            <span class="px-2 py-1 rounded-full bg-white/15">Laravel</span>
+                            <span class="px-2 py-1 rounded-full bg-white/15">Tailwind CSS</span>
+                            <span class="px-2 py-1 rounded-full bg-white/15">SSR</span>
                         </div>
                     </div>
                     <button
@@ -567,11 +576,11 @@
                         alt="project-3">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                     <div class="absolute left-0 right-0 bottom-0 p-5 text-white">
-                        <h3 class="font-semibold leading-snug">Car Rental - Car Rental Booking Mobile App</h3>
+                        <h3 class="font-semibold leading-snug">RentCar — Aplikasi Pemesanan Rental Mobil</h3>
                         <div class="mt-3 flex flex-wrap gap-2 text-[11px]">
-                            <span class="px-2 py-1 rounded-full bg-white/15">UI/UX Design</span>
-                            <span class="px-2 py-1 rounded-full bg-white/15">App Design</span>
-                            <span class="px-2 py-1 rounded-full bg-white/15">Wireframe</span>
+                            <span class="px-2 py-1 rounded-full bg-white/15">React Native</span>
+                            <span class="px-2 py-1 rounded-full bg-white/15">REST API</span>
+                            <span class="px-2 py-1 rounded-full bg-white/15">JWT</span>
                         </div>
                     </div>
                     <button
@@ -585,11 +594,11 @@
                         alt="project-4">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                     <div class="absolute left-0 right-0 bottom-0 p-5 text-white">
-                        <h3 class="font-semibold leading-snug">Hotel Booking - Landing Page UI/UX Design</h3>
+                        <h3 class="font-semibold leading-snug">Hotel Booking — Landing Page</h3>
                         <div class="mt-3 flex flex-wrap gap-2 text-[11px]">
-                            <span class="px-2 py-1 rounded-full bg-white/15">UI/UX Design</span>
-                            <span class="px-2 py-1 rounded-full bg-white/15">Landing Page</span>
-                            <span class="px-2 py-1 rounded-full bg-white/15">Wireframe</span>
+                            <span class="px-2 py-1 rounded-full bg-white/15">Next.js</span>
+                            <span class="px-2 py-1 rounded-full bg-white/15">Static Export</span>
+                            <span class="px-2 py-1 rounded-full bg-white/15">SEO</span>
                         </div>
                     </div>
                     <button
@@ -599,8 +608,8 @@
 
             <div class="text-center">
                 <a href="#"
-                    class="inline-flex h-10 px-5 rounded-full bg-[#3c6cf3] hover:bg-[#305ee6] text-white text-sm items-center justify-center shadow-md">View
-                    All Works</a>
+                    class="inline-flex h-10 px-5 rounded-full bg-[#3c6cf3] hover:bg-[#305ee6] text-white text-sm items-center justify-center shadow-md">Lihat
+                    Semua Proyek</a>
             </div>
         </div>
     </section>
@@ -722,7 +731,7 @@
             <div class="border-t border-white/10 pt-6">
                 <div class="flex flex-col md:flex-row items-center justify-between gap-4">
                     <p class="text-white/60 text-sm">
-                        © 2024 IT Company. All rights reserved. Designed with ❤️ for your success.
+                        © 2024 HeptaLogicTeam. All rights reserved. Crafted with ❤️ to power your success.
                     </p>
                     <div class="flex items-center gap-6">
                         <a href="#" class="text-white/60 hover:text-white transition-colors text-sm">Privacy Policy</a>

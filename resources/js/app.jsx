@@ -47,15 +47,15 @@ function MagneticButton({ children }) {
 function mountReactBits() {
     const marqueeTop = document.getElementById('rb-top');
     if (marqueeTop) {
-        createRoot(marqueeTop).render(<MarqueeRibbon items={["Website Development", "UX/UI Design", "Graphics Design"]} />);
+        createRoot(marqueeTop).render(<MarqueeRibbon items={["Website Development", "Mobile App Development", "Custom Systems", "UI/UX Design"]} />);
     }
     const marqueeBottom = document.getElementById('rb-bottom');
     if (marqueeBottom) {
-        createRoot(marqueeBottom).render(<MarqueeRibbon items={["Website Development", "UX/UI Design", "Graphics Design"]} />);
+        createRoot(marqueeBottom).render(<MarqueeRibbon items={["Website Development", "Mobile App Development", "Custom Systems", "UI/UX Design"]} />);
     }
     const cta = document.getElementById('magnet-cta');
     if (cta) {
-        createRoot(cta).render(<MagneticButton>Get A Quote</MagneticButton>);
+        createRoot(cta).render(<MagneticButton>Diskusikan Proyek</MagneticButton>);
     }
 }
 
