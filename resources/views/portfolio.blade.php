@@ -9,6 +9,7 @@
 
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     @viteReactRefresh
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -172,15 +173,7 @@
                     </div>
                 </div>
 
-                <!-- Badge -->
-                <div class="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
-                    <div
-                        class="w-24 h-24 rounded-full bg-white shadow-lg grid place-items-center border-2 border-blue-500">
-                        <div
-                            class="w-16 h-16 rounded-full bg-blue-600 grid place-items-center text-white text-xs font-semibold">
-                            10+<br />Years</div>
-                    </div>
-                </div>
+                
 
                 <!-- Decorative stars -->
                 <div class="absolute -left-6 bottom-10 text-blue-600">
@@ -199,29 +192,11 @@
                     Mengubah <span class="text-blue-600">Ide</span><br class="hidden md:block" /> menjadi <span
                         class="text-blue-600">Realitas Digital</span>
                 </h2>
-                <p class="text-slate-600 mb-8 max-w-xl">Kami membantu bisnis Anda tumbuh melalui solusi digital yang
-                    modern, aman, dan berkinerja tinggi.</p>
+                <p class="text-slate-600 mb-8 max-w-xl">Kami berkomitmen untuk menghadirkan teknologi inovatif yang membantu bisnis berkembang lebih cepat, efisien, dan berdaya saing tinggi.</p>
 
                 <!-- Metrics -->
-                <div class="grid grid-cols-3 gap-6 mb-10">
-                    <div>
-                        <div class="text-xl font-semibold text-blue-600">150+</div>
-                        <div class="text-[12px] text-slate-500">Anggota Tim</div>
-                    </div>
-                    <div>
-                        <div class="text-xl font-semibold text-blue-600">2000+</div>
-                        <div class="text-[12px] text-slate-500">Klien Puas</div>
-                    </div>
-                    <div>
-                        <div class="text-xl font-semibold text-blue-600">99%</div>
-                        <div class="text-[12px] text-slate-500">Kepuasan Klien</div>
-                    </div>
-                </div>
-
-                <!-- Signature -->
-                <div>
-                    <div class="font-medium text-lg mb-1">Jenny Alexander</div>
-                    <div class="text-[12px] text-slate-500">Jenny Alexander • CEO</div>
+                <div class="gap-6 mb-10">
+                    <a href="#contact" class="btn p-4 bg-blue-600 text-white rounded hover:bg-blue-900">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -241,14 +216,11 @@
                         yang Kami Sediakan
                         untuk<br /><span class="text-blue-600">Mengembangkan Bisnis Anda</span></h2>
                 </div>
-                <a href="#"
-                    class="shrink-0 h-10 px-5 rounded-full bg-blue-600 hover:bg-blue-700 text-white text-sm grid place-items-center shadow-md">Lihat
-                    Semua Layanan</a>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-6">
-                <!-- Card 1 -->
-                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden">
+            <div class="grid md:grid-cols-2 sm:grid-cols-1 gap-6">
+               <!-- Card 1 -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden" data-aos="fade-down-right" data-aos-duration="1000">
                     <div class="p-6">
                         <div
                             class="w-12 h-12 rounded-xl bg-blue-600/10 text-blue-600 grid place-items-center mb-4 shadow-inner">
@@ -260,18 +232,14 @@
                                     clip-rule="evenodd" />
                             </svg>
                         </div>
-                        <h3 class="font-semibold text-[#0b1530] mb-2">Pengembangan Website</h3>
-                        <p class="text-slate-500 text-sm leading-6 mb-5">Kami membangun website profesional yang cepat,
-                            aman, dan mudah dikelola untuk kebutuhan bisnis Anda.</p>
-                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Pelajari lebih
-                            lanjut
-                            <span>→</span></a>
+                        <h3 class="font-semibold text-[#0b1530] mb-2">Website Development</h3>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">pembuatan dan pengembangan website, mulai dari company profile, e-commerce, blog, hingga sistem berbasis web.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Website responsif, cepat, SEO-friendly, dengan fitur sesuai kebutuhan klien. </a>
                     </div>
-                    <div class="h-[3px] bg-gradient-to-r from-blue-600 to-blue-400"></div>
                 </div>
 
                 <!-- Card 2 -->
-                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden">
+                 <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden" data-aos="fade-down-right" data-aos-duration="1000">
                     <div class="p-6">
                         <div
                             class="w-12 h-12 rounded-xl bg-blue-600/10 text-blue-600 grid place-items-center mb-4 shadow-inner">
@@ -281,17 +249,14 @@
                                     d="M7.5 1.5A2.25 2.25 0 005.25 3.75v16.5A2.25 2.25 0 007.5 22.5h9a2.25 2.25 0 002.25-2.25V3.75A2.25 2.25 0 0016.5 1.5h-9zM9 3.75h6v.75H9v-.75zM12 19.5a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25z" />
                             </svg>
                         </div>
-                        <h3 class="font-semibold text-[#0b1530] mb-2">Pengembangan Aplikasi Mobile</h3>
-                        <p class="text-slate-500 text-sm leading-6 mb-5">Solusi aplikasi mobile yang intuitif dan
-                            scalable untuk Android dan iOS.</p>
-                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Pelajari lebih
-                            lanjut
-                            <span>→</span></a>
+                        <h3 class="font-semibold text-[#0b1530] mb-2">Mobile App Development</h3>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">pembuatan aplikasi mobile berbasis Android dan iOS, baik aplikasi publik maupun aplikasi internal perusahaan.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Aplikasi bisnis, marketplace, aplikasi edukasi, hingga aplikasi internal perusahaan.</a>
                     </div>
                 </div>
 
                 <!-- Card 3 -->
-                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden">
+                 <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden" data-aos="fade-down-right" data-aos-duration="2000">
                     <div class="p-6">
                         <div
                             class="w-12 h-12 rounded-xl bg-blue-600/10 text-blue-600 grid place-items-center mb-4 shadow-inner">
@@ -302,14 +267,29 @@
                                 <path d="M7.5 7.5h3v3h-3v-3zM13.5 7.5h3v3h-3v-3zM7.5 13.5h9v3h-9v-3z" />
                             </svg>
                         </div>
-                        <h3 class="font-semibold text-[#0b1530] mb-2">Desain UI/UX</h3>
-                        <p class="text-slate-500 text-sm leading-6 mb-5">Desain antarmuka yang modern dan pengalaman
-                            pengguna yang optimal untuk meningkatkan konversi.</p>
-                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Pelajari lebih
-                            lanjut
-                            <span>→</span></a>
+                        <h3 class="font-semibold text-[#0b1530] mb-2">UI/UX Design</h3>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">perancangan tampilan (User Interface) dan pengalaman pengguna (User Experience) untuk aplikasi atau website.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Wireframe, prototype interaktif, serta desain visual yang konsisten dengan brand identity.</a>
                     </div>
                 </div>
+                <!-- Card 4 -->
+                 <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden" data-aos="fade-down-right" data-aos-duration="2000">
+                    <div class="p-6">
+                        <div
+                            class="w-12 h-12 rounded-xl bg-blue-600/10 text-blue-600 grid place-items-center mb-4 shadow-inner">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-6 h-6">
+                                <path
+                                    d="M3 6.75A2.25 2.25 0 015.25 4.5h13.5A2.25 2.25 0 0121 6.75v10.5A2.25 2.25 0 0118.75 19.5H5.25A2.25 2.25 0 013 17.25V6.75z" />
+                                <path d="M7.5 7.5h3v3h-3v-3zM13.5 7.5h3v3h-3v-3zM7.5 13.5h9v3h-9v-3z" />
+                            </svg>
+                        </div>
+                        <h3 class="font-semibold text-[#0b1530] mb-2">Graphic Design</h3>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">Pembuatan desain visual yang menarik dan profesional untuk kebutuhan branding, promosi, maupun media digital dan cetak.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">desain logo, poster, brosur, banner, konten media sosial, serta elemen visual lainnya yang mendukung identitas brand.</a>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </section>
@@ -962,6 +942,13 @@
             </div>
         </div>
     </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
