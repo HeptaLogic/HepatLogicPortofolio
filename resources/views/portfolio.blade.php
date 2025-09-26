@@ -574,6 +574,28 @@
                     <a href="https://c-project-frontend-ntbg.vercel.app/detect" target="_blank" rel="noopener"
                         class="absolute right-4 bottom-4 w-12 h-12 rounded-full bg-blue-600 hover:bg-blue-700 grid place-items-center text-white shadow-md transition-transform duration-500 group-hover:-translate-y-1 group-hover:translate-x-1">↗</a>
                 </article>
+
+                <!-- Morowali Tool Store -->
+                <article
+                    class="group relative rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 will-change-transform transition-transform duration-500 hover:-translate-y-2 hover:shadow-xl"
+                    data-card>
+                    <img class="w-full h-[260px] md:h-[300px] object-cover transition-transform duration-700 group-hover:scale-[1.06]"
+                        src="{{ Vite::asset('resources/images/Toolsstore.png') }}"
+                        alt="Sistem Manajemen Alat Lab Pengelasan">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent transition-opacity duration-500 group-hover:from-black/80">
+                    </div>
+                    <div class="absolute left-0 right-0 bottom-0 p-5 text-white">
+                        <h3 class="font-semibold leading-snug">Sistem Manajemen Alat Lab Pengelasan – Politeknik
+                            Industri Logam Morowali</h3>
+                        <div class="mt-3 flex flex-wrap gap-2 text-[11px]">
+                            <span class="px-2 py-1 rounded-full bg-white/15">Manajemen Alat</span>
+                            <span class="px-2 py-1 rounded-full bg-white/15">Admin Panel</span>
+                        </div>
+                    </div>
+                    <a href="https://page.morowalitoolstore.my.id/admin/dashboard" target="_blank" rel="noopener"
+                        class="absolute right-4 bottom-4 w-12 h-12 rounded-full bg-blue-600 hover:bg-blue-700 grid place-items-center text-white shadow-md transition-transform duration-500 group-hover:-translate-y-1 group-hover:translate-x-1">↗</a>
+                </article>
             </div>
 
             <div class="text-center">
@@ -610,44 +632,45 @@
                     <form class="space-y-6">
                         <!-- Name Field -->
                         <div>
-<<<<<<< Updated upstream
-                            <label for="name" class="block text-sm font-medium text-[#0b1530] mb-2">Nama
+                            <<<<<<< Updated upstream <label for="name"
+                                class="block text-sm font-medium text-[#0b1530] mb-2">Nama
                                 Lengkap</label>
-=======
-                            <label for="name" class="block text-sm font-medium text-[#0b1530] mb-2">Full
-                                Name</label>
->>>>>>> Stashed changes
-                            <input type="text" id="name" name="name" required
-                                class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-colors text-sm"
-                                placeholder="Masukkan nama lengkap Anda">
+                                =======
+                                <label for="name" class="block text-sm font-medium text-[#0b1530] mb-2">Full
+                                    Name</label>
+                                >>>>>>> Stashed changes
+                                <input type="text" id="name" name="name" required
+                                    class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-colors text-sm"
+                                    placeholder="Masukkan nama lengkap Anda">
                         </div>
 
                         <!-- Email Field -->
                         <div>
-<<<<<<< Updated upstream
-                            <label for="email" class="block text-sm font-medium text-[#0b1530] mb-2">Alamat
+                            <<<<<<< Updated upstream <label for="email"
+                                class="block text-sm font-medium text-[#0b1530] mb-2">Alamat
                                 Email</label>
-=======
-                            <label for="email" class="block text-sm font-medium text-[#0b1530] mb-2">Email
-                                Address</label>
->>>>>>> Stashed changes
-                            <input type="email" id="email" name="email" required
-                                class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-colors text-sm"
-                                placeholder="Masukkan alamat email Anda">
+                                =======
+                                <label for="email" class="block text-sm font-medium text-[#0b1530] mb-2">Email
+                                    Address</label>
+                                >>>>>>> Stashed changes
+                                <input type="email" id="email" name="email" required
+                                    class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-colors text-sm"
+                                    placeholder="Masukkan alamat email Anda">
                         </div>
 
                         <!-- Requirements Field -->
                         <div>
-<<<<<<< Updated upstream
-                            <label for="requirements" class="block text-sm font-medium text-[#0b1530] mb-2">Kebutuhan
+                            <<<<<<< Updated upstream <label for="requirements"
+                                class="block text-sm font-medium text-[#0b1530] mb-2">Kebutuhan
                                 Proyek</label>
-=======
-                            <label for="requirements" class="block text-sm font-medium text-[#0b1530] mb-2">Project
-                                Requirements</label>
->>>>>>> Stashed changes
-                            <textarea id="requirements" name="requirements" rows="4" required
-                                class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-colors text-sm resize-none"
-                                placeholder="Ceritakan kebutuhan, tujuan, dan timeline proyek Anda..."></textarea>
+                                =======
+                                <label for="requirements"
+                                    class="block text-sm font-medium text-[#0b1530] mb-2">Project
+                                    Requirements</label>
+                                >>>>>>> Stashed changes
+                                <textarea id="requirements" name="requirements" rows="4" required
+                                    class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-colors text-sm resize-none"
+                                    placeholder="Ceritakan kebutuhan, tujuan, dan timeline proyek Anda..."></textarea>
                         </div>
 
                         <!-- Submit Button -->
@@ -825,8 +848,7 @@
                 <div>
                     <h3 class="font-semibold text-lg mb-6">Tautan Cepat</h3>
                     <ul class="space-y-3">
-                        <li><a href="#home"
-<<<<<<< Updated upstream
+                        <li><a href="#home" <<<<<<< Updated upstream
                                 class="text-white/70 hover:text-white transition-colors text-sm">Beranda</a></li>
                         <li><a href="#services"
                                 class="text-white/70 hover:text-white transition-colors text-sm">Layanan</a></li>
@@ -836,8 +858,8 @@
                                 Kami</a></li>
                         <li><a href="#contact"
                                 class="text-white/70 hover:text-white transition-colors text-sm">Kontak</a></li>
-=======
-                                class="text-white/70 hover:text-white transition-colors text-sm">Home</a></li>
+                        =======
+                        class="text-white/70 hover:text-white transition-colors text-sm">Home</a></li>
                         <li><a href="#services"
                                 class="text-white/70 hover:text-white transition-colors text-sm">Services</a></li>
                         <li><a href="#projects"
@@ -846,7 +868,7 @@
                                 Us</a></li>
                         <li><a href="#contact"
                                 class="text-white/70 hover:text-white transition-colors text-sm">Contact</a></li>
->>>>>>> Stashed changes
+                        >>>>>>> Stashed changes
                     </ul>
                 </div>
 
