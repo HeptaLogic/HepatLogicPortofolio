@@ -74,23 +74,39 @@
     <!-- Navigation -->
     <header class="border-b border-white/10 bg-[#0b1530]/80 backdrop-blur">
         <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="/" class="flex items-center gap-2">
+            <a href="#home" class="flex items-center gap-2">
                 <span
                     class="w-9 h-9 rounded-full bg-blue-500 grid place-items-center text-white font-semibold">HL</span>
                 <span class="font-semibold">HEPTALOGIC</span>
             </a>
             <nav class="hidden md:flex items-center gap-6 text-white/80">
-
                 <a href="#home" class="hover:text-white">Beranda</a>
                 <a href="#about" class="hover:text-white">Tentang Kami</a>
-                <a href="#projects" class="hover:text-white">Layanan</a>
-                <a href="#blogs" class="hover:text-white">Projects</a>
-                <a href="#about" class="hover:text-white">Kontak</a>
-
+                <a href="#services" class="hover:text-white">Layanan</a>
+                <a href="#projects" class="hover:text-white">Projects</a>
+                <a href="#contact" class="hover:text-white">Kontak</a>
             </nav>
-            <a href="#"
-                class="hidden sm:inline-block px-5 py-2 rounded-full bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium shadow-md">Get
-                A Quote</a>
+            <div class="flex items-center gap-3">
+                <a href="#contact"
+                    class="hidden sm:inline-block px-5 py-2 rounded-full bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium shadow-md">Get
+                    A Quote</a>
+                <button type="button" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-lg bg-white/10 hover:bg-white/15 text-white" aria-label="Toggle menu" aria-expanded="false" data-menu-toggle data-menu-target="#mobile-nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd" d="M3.75 5.25a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75zm0 6a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75zm0 6a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Nav -->
+        <div id="mobile-nav" class="md:hidden hidden border-t border-white/10 bg-[#0b1530]">
+            <div class="max-w-7xl mx-auto px-4 py-3 grid gap-3 text-white/80">
+                <a href="#home" class="py-2 hover:text-white" data-menu-close>Beranda</a>
+                <a href="#about" class="py-2 hover:text-white" data-menu-close>Tentang Kami</a>
+                <a href="#services" class="py-2 hover:text-white" data-menu-close>Layanan</a>
+                <a href="#projects" class="py-2 hover:text-white" data-menu-close>Projects</a>
+                <a href="#contact" class="py-2 hover:text-white" data-menu-close>Kontak</a>
+                <a href="#contact" class="mt-2 inline-flex h-10 px-5 rounded-full bg-blue-600 hover:bg-blue-700 text-white text-sm items-center justify-center shadow-md" data-menu-close>Get A Quote</a>
+            </div>
         </div>
     </header>
 
@@ -99,7 +115,7 @@
         <div class="max-w-7xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
             <div>
                 <p class="text-blue-400 text-sm mb-2">Solusi Digital Terpercaya</p>
-                <h1 class="text-4xl md:text-5xl font-semibold leading-tight mb-3" data-split>
+                <h1 class="text-4xl md:text-5xl font-semibold leading-tight mb-3" id="hero-title">
                     Membangun Website dan Aplikasi Profesional
                 </h1>
                 <p class="text-white/80 italic mb-4">“Dari Logika, Hadirkan Solusi.”</p>
@@ -117,9 +133,10 @@
                 </div>
             </div>
             <div class="relative">
-                <div class="rounded-lg overflow-hidden border border-white/10 shadow-[0_10px_25px_rgba(0,0,0,0.3)]">
+                <div class="rounded-lg overflow-hidden border border-white/10 shadow-[0_10px_25px_rgba(0,0,0,0.3)] group">
                     <img src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?q=80&w=1200&auto=format&fit=crop"
-                        alt="Team" class="w-full h-[420px] object-cover">
+                        alt="Team" class="w-full h-[420px] object-cover transition-transform duration-500 ease-out group-hover:scale-[1.04]">
+                    <div class="pointer-events-none absolute inset-0 bg-gradient-to-tr from-blue-600/0 via-blue-500/0 to-blue-400/0 opacity-0 transition-opacity duration-500 group-hover:opacity-20"></div>
                 </div>
             </div>
         </div>
@@ -144,23 +161,23 @@
             <!-- Collage -->
             <div class="relative">
                 <div class="relative grid grid-cols-2 gap-4 w-full max-w-[540px]">
-                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md">
-                        <img class="w-full h-48 md:h-56 object-cover"
+                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md group">
+                        <img class="w-full h-48 md:h-56 object-cover transition-transform duration-700 group-hover:scale-[1.06]"
                             src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=800&auto=format&fit=crop"
                             alt="team-1">
                     </div>
-                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md">
-                        <img class="w-full h-48 md:h-56 object-cover"
+                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md group">
+                        <img class="w-full h-48 md:h-56 object-cover transition-transform duration-700 group-hover:scale-[1.06]"
                             src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=800&auto=format&fit=crop"
                             alt="team-2">
                     </div>
-                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md">
-                        <img class="w-full h-48 md:h-56 object-cover"
+                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md group">
+                        <img class="w-full h-48 md:h-56 object-cover transition-transform duration-700 group-hover:scale-[1.06]"
                             src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=800&auto=format&fit=crop"
                             alt="team-3">
                     </div>
-                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md">
-                        <img class="w-full h-48 md:h-56 object-cover"
+                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md group">
+                        <img class="w-full h-48 md:h-56 object-cover transition-transform duration-700 group-hover:scale-[1.06]"
                             src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?q=80&w=800&auto=format&fit=crop"
                             alt="team-4">
                     </div>
@@ -172,7 +189,7 @@
                         class="w-24 h-24 rounded-full bg-white shadow-lg grid place-items-center border-2 border-blue-500">
                         <div
                             class="w-16 h-16 rounded-full bg-blue-600 grid place-items-center text-white text-xs font-semibold">
-                            10+<br />Years</div>
+                            3+<br />Years</div>
                     </div>
                 </div>
 
@@ -187,34 +204,58 @@
 
             <!-- Content -->
             <div>
-                <p class="text-blue-500 text-sm mb-2">// About Us</p>
+                <p class="text-blue-500 text-sm mb-2">// Tentang Kami</p>
                 <h2 class="text-3xl md:text-4xl font-semibold leading-tight mb-4" data-split>
-                    Transforming <span class="text-blue-600">Ideas</span><br class="hidden md:block" /> into <span
-                        class="text-blue-600">Digital Reality</span>
+                    Partner Digital untuk <span class="text-blue-600">Bisnis</span> Anda
                 </h2>
-                <p class="text-slate-600 mb-8 max-w-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore.</p>
+                <p class="text-slate-600 mb-8 max-w-xl">Hepta Logic adalah studio digital yang berfokus pada solusi
+                    end‑to‑end: dari strategi, desain antarmuka, hingga pengembangan aplikasi siap produksi. Kami
+                    menggabungkan riset, estetika, dan teknologi terbaru agar produk Anda tampil menonjol dan
+                    berkinerja.</p>
 
-                <!-- Metrics -->
-                <div class="grid grid-cols-3 gap-6 mb-10">
-                    <div>
-                        <div class="text-xl font-semibold text-blue-600">150+</div>
-                        <div class="text-[12px] text-slate-500">Team Members</div>
+                <!-- Services quick grid -->
+                <div class="grid grid-cols-2 gap-4 mb-8">
+                    <div class="flex items-start gap-3 p-4 rounded-xl border border-slate-200/70 hover:shadow-sm transition">
+                        <div class="w-9 h-9 rounded-lg bg-blue-600/10 text-blue-600 grid place-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M4.5 5.25A2.25 2.25 0 016.75 3h10.5A2.25 2.25 0 0119.5 5.25v.75h-15v-.75z"/><path fill-rule="evenodd" d="M3 7.5h18v9.75A2.25 2.25 0 0118.75 19.5H5.25A2.25 2.25 0 013 17.25V7.5zm5.25 9a.75.75 0 000 1.5h7.5a.75.75 0 000-1.5h-7.5z" clip-rule="evenodd"/></svg>
+                        </div>
+                        <div>
+                            <div class="font-semibold">Website Development</div>
+                            <div class="text-slate-500 text-[12px] leading-5">Company profile, landing page, e‑commerce.</div>
+                        </div>
                     </div>
-                    <div>
-                        <div class="text-xl font-semibold text-blue-600">2000+</div>
-                        <div class="text-[12px] text-slate-500">Happy Clients</div>
+                    <div class="flex items-start gap-3 p-4 rounded-xl border border-slate-200/70 hover:shadow-sm transition">
+                        <div class="w-9 h-9 rounded-lg bg-blue-600/10 text-blue-600 grid place-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M3 6.75A2.25 2.25 0 015.25 4.5h13.5A2.25 2.25 0 0121 6.75v10.5A2.25 2.25 0 0118.75 19.5H5.25A2.25 2.25 0 013 17.25V6.75z"/><path d="M7.5 7.5h3v3h-3v-3zM13.5 7.5h3v3h-3v-3zM7.5 13.5h9v3h-9v-3z"/></svg>
+                        </div>
+                        <div>
+                            <div class="font-semibold">UI/UX Design</div>
+                            <div class="text-slate-500 text-[12px] leading-5">Desain modern berbasis riset pengguna.</div>
+                        </div>
                     </div>
-                    <div>
-                        <div class="text-xl font-semibold text-blue-600">99%</div>
-                        <div class="text-[12px] text-slate-500">Client Satisfaction</div>
+                    <div class="flex items-start gap-3 p-4 rounded-xl border border-slate-200/70 hover:shadow-sm transition">
+                        <div class="w-9 h-9 rounded-lg bg-blue-600/10 text-blue-600 grid place-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M7.5 1.5A2.25 2.25 0 005.25 3.75v16.5A2.25 2.25 0 007.5 22.5h9a2.25 2.25 0 002.25-2.25V3.75A2.25 2.25 0 0016.5 1.5h-9zM9 3.75h6v.75H9v-.75zM12 19.5a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25z"/></svg>
+                        </div>
+                        <div>
+                            <div class="font-semibold">App Development</div>
+                            <div class="text-slate-500 text-[12px] leading-5">Web app, dashboard, API & integrasi.</div>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3 p-4 rounded-xl border border-slate-200/70 hover:shadow-sm transition">
+                        <div class="w-9 h-9 rounded-lg bg-blue-600/10 text-blue-600 grid place-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M3 4.5A1.5 1.5 0 014.5 3h15A1.5 1.5 0 0121 4.5v15a1.5 1.5 0 01-1.5 1.5h-15A1.5 1.5 0 013 19.5v-15z"/><path d="M7.5 7.5h9v9h-9z"/></svg>
+                        </div>
+                        <div>
+                            <div class="font-semibold">Graphic Design</div>
+                            <div class="text-slate-500 text-[12px] leading-5">Logo, brand kit, social media assets.</div>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Signature -->
-                <div>
-                    <div class="font-medium text-lg mb-1">Jenny Alexander</div>
-                    <div class="text-[12px] text-slate-500">Jenny Alexander • CEO</div>
+                <div class="flex items-center gap-4">
+                    <a href="#services" class="px-6 py-3 rounded-full bg-blue-600 hover:bg-blue-700 text-white font-medium">Lihat Layanan</a>
+                    <a href="#contact" class="px-6 py-3 rounded-full bg-[#0b1530]/5 hover:bg-[#0b1530]/10 text-[#0b1530] font-medium border border-slate-200/70">Konsultasi Gratis</a>
                 </div>
             </div>
         </div>

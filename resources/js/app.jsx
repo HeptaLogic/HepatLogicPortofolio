@@ -69,8 +69,8 @@ function initSplitText() {
         span.style.transform = 'translateY(1em)';
         span.animate(
             [
-                { opacity: 0, transform: 'translateY(1em)' },
-                { opacity: 1, transform: 'translateY(0)' },
+                { opacity: 0, transform: 'translateY(1em) scale(0.98)', filter: 'blur(6px)' },
+                { opacity: 1, transform: 'translateY(0) scale(1)', filter: 'blur(0px)' },
             ],
             { duration: 600, delay: i * 35, easing: 'cubic-bezier(0.2,0.6,0.2,1)', fill: 'forwards' }
         );
@@ -115,6 +115,7 @@ function boot() {
     setTimeout(initSplitText, 200);
     initRevealText();
     initRevealCards();
+    initMobileMenu();
 }
 
 if (document.readyState === 'complete' || document.readyState === 'interactive') {
@@ -164,6 +165,39 @@ function initRevealCards() {
     cards.forEach((c, idx) => {
         c.setAttribute('data-card-delay', String(idx * 120));
         io.observe(c);
+    });
+}
+
+// Mobile menu toggle
+function initMobileMenu() {
+    const toggles = document.querySelectorAll('[data-menu-toggle]');
+    toggles.forEach((btn) => {
+        const targetSel = btn.getAttribute('data-menu-target');
+        const panel = document.querySelector(targetSel);
+        if (!panel) return;
+        const closeLinks = panel.querySelectorAll('[data-menu-close]');
+        const open = () => {
+            panel.classList.remove('hidden');
+            panel.style.maxHeight = panel.scrollHeight + 'px';
+            btn.setAttribute('aria-expanded', 'true');
+        };
+        const close = () => {
+            panel.style.maxHeight = '0px';
+            btn.setAttribute('aria-expanded', 'false');
+            // hide after transition
+            setTimeout(() => panel.classList.add('hidden'), 200);
+        };
+        let isOpen = false;
+        btn.addEventListener('click', () => {
+            isOpen ? close() : open();
+            isOpen = !isOpen;
+        });
+        closeLinks.forEach((a) => a.addEventListener('click', () => {
+            if (isOpen) {
+                close();
+                isOpen = false;
+            }
+        }));
     });
 }
 
