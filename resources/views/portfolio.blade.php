@@ -25,7 +25,7 @@
                         <path
                             d="M2.25 6.75c0-1.243 1.007-2.25 2.25-2.25h3.5c.966 0 1.818.62 2.121 1.539l.89 2.672a2.25 2.25 0 01-.54 2.297l-1.116 1.117a16.5 16.5 0 006.364 6.364l1.116-1.116a2.25 2.25 0 012.298-.54l2.671.89A2.25 2.25 0 0121.5 18v3.5a2.25 2.25 0 01-2.25 2.25H18C9.716 23.75 2.25 16.284 2.25 8V6.75z" />
                     </svg>
-                    <span>(000) 000-0000</span>
+                    <span>+62 822-3623-4227</span>
                 </div>
                 <div class="hidden sm:flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -44,7 +44,7 @@
                             d="M11.47.659a.75.75 0 01.997 0l9 8.25a.75.75 0 01-1.004 1.112L21 9.277V21a2.25 2.25 0 01-2.25 2.25h-4.5a.75.75 0 01-.75-.75v-5.25a1.5 1.5 0 00-1.5-1.5h-1.5a1.5 1.5 0 00-1.5 1.5v5.25a.75.75 0 01-.75.75h-4.5A2.25 2.25 0 013 21V9.277l-.463.744a.75.75 0 11-1.004-1.112l9-8.25z"
                             clip-rule="evenodd" />
                     </svg>
-                    <span>2464 Royal Ln. Mesa, New Jersey 45463</span>
+                    <span>Makassar, South Sulawesi</span>
                 </div>
             </div>
             <div class="hidden sm:flex items-center gap-3">
@@ -74,39 +74,23 @@
     <!-- Navigation -->
     <header class="border-b border-white/10 bg-[#0b1530]/80 backdrop-blur">
         <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-            <a href="#home" class="flex items-center gap-2">
+            <a href="/" class="flex items-center gap-2">
                 <span
                     class="w-9 h-9 rounded-full bg-blue-500 grid place-items-center text-white font-semibold">HL</span>
                 <span class="font-semibold">HEPTALOGIC</span>
             </a>
             <nav class="hidden md:flex items-center gap-6 text-white/80">
+
                 <a href="#home" class="hover:text-white">Beranda</a>
                 <a href="#about" class="hover:text-white">Tentang Kami</a>
-                <a href="#services" class="hover:text-white">Layanan</a>
-                <a href="#projects" class="hover:text-white">Projects</a>
-                <a href="#contact" class="hover:text-white">Kontak</a>
+                <a href="#projects" class="hover:text-white">Layanan</a>
+                <a href="#blogs" class="hover:text-white">Projects</a>
+                <a href="#about" class="hover:text-white">Kontak</a>
+
             </nav>
-            <div class="flex items-center gap-3">
-                <a href="#contact"
-                    class="hidden sm:inline-block px-5 py-2 rounded-full bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium shadow-md">Get
-                    A Quote</a>
-                <button type="button" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-lg bg-white/10 hover:bg-white/15 text-white" aria-label="Toggle menu" aria-expanded="false" data-menu-toggle data-menu-target="#mobile-nav">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                        <path fill-rule="evenodd" d="M3.75 5.25a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75zm0 6a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75zm0 6a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
-                    </svg>
-                </button>
-            </div>
-        </div>
-        <!-- Mobile Nav -->
-        <div id="mobile-nav" class="md:hidden hidden border-t border-white/10 bg-[#0b1530]">
-            <div class="max-w-7xl mx-auto px-4 py-3 grid gap-3 text-white/80">
-                <a href="#home" class="py-2 hover:text-white" data-menu-close>Beranda</a>
-                <a href="#about" class="py-2 hover:text-white" data-menu-close>Tentang Kami</a>
-                <a href="#services" class="py-2 hover:text-white" data-menu-close>Layanan</a>
-                <a href="#projects" class="py-2 hover:text-white" data-menu-close>Projects</a>
-                <a href="#contact" class="py-2 hover:text-white" data-menu-close>Kontak</a>
-                <a href="#contact" class="mt-2 inline-flex h-10 px-5 rounded-full bg-blue-600 hover:bg-blue-700 text-white text-sm items-center justify-center shadow-md" data-menu-close>Get A Quote</a>
-            </div>
+            <a href="#"
+                class="hidden sm:inline-block px-5 py-2 rounded-full bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium shadow-md">Minta
+                Penawaran</a>
         </div>
     </header>
 
@@ -114,11 +98,12 @@
     <section id="home" class="relative overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
             <div>
-                <p class="text-blue-400 text-sm mb-2">Solusi Digital Terpercaya</p>
-                <h1 class="text-4xl md:text-5xl font-semibold leading-tight mb-3" id="hero-title">
-                    Membangun Website dan Aplikasi Profesional
+                <p class="text-blue-400 text-sm mb-2 [word-spacing:.15em]">Solusi Digital Terpercaya</p>
+                <h1 class="text-4xl md:text-5xl font-semibold leading-tight mb-3 [word-spacing:.2em] md:[word-spacing:.25em]"
+                    data-split>
+                    Membangun Website & Aplikasi Profesional
                 </h1>
-                <p class="text-white/80 italic mb-4">“Dari Logika, Hadirkan Solusi.”</p>
+                <p class="text-white/80 italic mb-4">"Dari Logika, Hadirkan Solusi."</p>
                 <p class="text-white/70 mb-8 max-w-xl">Hepta Logic menghadirkan layanan pengembangan website dan
                     aplikasi dengan desain modern, teknologi terbaru, dan hasil yang dapat diandalkan.</p>
                 <div class="flex items-center gap-4">
@@ -133,10 +118,9 @@
                 </div>
             </div>
             <div class="relative">
-                <div class="rounded-lg overflow-hidden border border-white/10 shadow-[0_10px_25px_rgba(0,0,0,0.3)] group">
+                <div class="rounded-lg overflow-hidden border border-white/10 shadow-[0_10px_25px_rgba(0,0,0,0.3)]">
                     <img src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?q=80&w=1200&auto=format&fit=crop"
-                        alt="Team" class="w-full h-[420px] object-cover transition-transform duration-500 ease-out group-hover:scale-[1.04]">
-                    <div class="pointer-events-none absolute inset-0 bg-gradient-to-tr from-blue-600/0 via-blue-500/0 to-blue-400/0 opacity-0 transition-opacity duration-500 group-hover:opacity-20"></div>
+                        alt="Team" class="w-full h-[420px] object-cover">
                 </div>
             </div>
         </div>
@@ -145,10 +129,10 @@
         <div class="bg-blue-600">
             <div
                 class="max-w-7xl mx-auto px-4 py-4 grid grid-cols-2 md:grid-cols-4 gap-3 text-center text-white font-medium">
-                <div>Website Development</div>
-                <div>UX/UI Design</div>
-                <div>Graphics Design</div>
-                <div class="hidden md:block">App Development</div>
+                <div>Pengembangan Website</div>
+                <div>Desain UX/UI</div>
+                <div>Desain Grafis</div>
+                <div class="hidden md:block">Pengembangan Aplikasi</div>
             </div>
         </div>
     </section>
@@ -161,23 +145,23 @@
             <!-- Collage -->
             <div class="relative">
                 <div class="relative grid grid-cols-2 gap-4 w-full max-w-[540px]">
-                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md group">
-                        <img class="w-full h-48 md:h-56 object-cover transition-transform duration-700 group-hover:scale-[1.06]"
+                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md">
+                        <img class="w-full h-48 md:h-56 object-cover"
                             src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=800&auto=format&fit=crop"
                             alt="team-1">
                     </div>
-                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md group">
-                        <img class="w-full h-48 md:h-56 object-cover transition-transform duration-700 group-hover:scale-[1.06]"
+                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md">
+                        <img class="w-full h-48 md:h-56 object-cover"
                             src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=800&auto=format&fit=crop"
                             alt="team-2">
                     </div>
-                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md group">
-                        <img class="w-full h-48 md:h-56 object-cover transition-transform duration-700 group-hover:scale-[1.06]"
+                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md">
+                        <img class="w-full h-48 md:h-56 object-cover"
                             src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=800&auto=format&fit=crop"
                             alt="team-3">
                     </div>
-                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md group">
-                        <img class="w-full h-48 md:h-56 object-cover transition-transform duration-700 group-hover:scale-[1.06]"
+                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md">
+                        <img class="w-full h-48 md:h-56 object-cover"
                             src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?q=80&w=800&auto=format&fit=crop"
                             alt="team-4">
                     </div>
@@ -189,7 +173,7 @@
                         class="w-24 h-24 rounded-full bg-white shadow-lg grid place-items-center border-2 border-blue-500">
                         <div
                             class="w-16 h-16 rounded-full bg-blue-600 grid place-items-center text-white text-xs font-semibold">
-                            3+<br />Years</div>
+                            10+<br />Years</div>
                     </div>
                 </div>
 
@@ -204,58 +188,35 @@
 
             <!-- Content -->
             <div>
-                <p class="text-blue-500 text-sm mb-2">// Tentang Kami</p>
-                <h2 class="text-3xl md:text-4xl font-semibold leading-tight mb-4" data-split>
-                    Partner Digital untuk <span class="text-blue-600">Bisnis</span> Anda
+                <p class="text-blue-500 text-sm mb-2 [word-spacing:.15em]">// Tentang Kami</p>
+                <h2 class="text-3xl md:text-4xl font-semibold leading-tight mb-4 [word-spacing:.18em] md:[word-spacing:.24em]"
+                    data-split>
+                    Mengubah <span class="text-blue-600">Ide</span><br class="hidden md:block" /> menjadi <span
+                        class="text-blue-600">Realitas Digital</span>
                 </h2>
-                <p class="text-slate-600 mb-8 max-w-xl">Hepta Logic adalah studio digital yang berfokus pada solusi
-                    end‑to‑end: dari strategi, desain antarmuka, hingga pengembangan aplikasi siap produksi. Kami
-                    menggabungkan riset, estetika, dan teknologi terbaru agar produk Anda tampil menonjol dan
-                    berkinerja.</p>
+                <p class="text-slate-600 mb-8 max-w-xl">Kami membantu bisnis Anda tumbuh melalui solusi digital yang
+                    modern, aman, dan berkinerja tinggi.</p>
 
-                <!-- Services quick grid -->
-                <div class="grid grid-cols-2 gap-4 mb-8">
-                    <div class="flex items-start gap-3 p-4 rounded-xl border border-slate-200/70 hover:shadow-sm transition">
-                        <div class="w-9 h-9 rounded-lg bg-blue-600/10 text-blue-600 grid place-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M4.5 5.25A2.25 2.25 0 016.75 3h10.5A2.25 2.25 0 0119.5 5.25v.75h-15v-.75z"/><path fill-rule="evenodd" d="M3 7.5h18v9.75A2.25 2.25 0 0118.75 19.5H5.25A2.25 2.25 0 013 17.25V7.5zm5.25 9a.75.75 0 000 1.5h7.5a.75.75 0 000-1.5h-7.5z" clip-rule="evenodd"/></svg>
-                        </div>
-                        <div>
-                            <div class="font-semibold">Website Development</div>
-                            <div class="text-slate-500 text-[12px] leading-5">Company profile, landing page, e‑commerce.</div>
-                        </div>
+                <!-- Metrics -->
+                <div class="grid grid-cols-3 gap-6 mb-10">
+                    <div>
+                        <div class="text-xl font-semibold text-blue-600">150+</div>
+                        <div class="text-[12px] text-slate-500">Anggota Tim</div>
                     </div>
-                    <div class="flex items-start gap-3 p-4 rounded-xl border border-slate-200/70 hover:shadow-sm transition">
-                        <div class="w-9 h-9 rounded-lg bg-blue-600/10 text-blue-600 grid place-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M3 6.75A2.25 2.25 0 015.25 4.5h13.5A2.25 2.25 0 0121 6.75v10.5A2.25 2.25 0 0118.75 19.5H5.25A2.25 2.25 0 013 17.25V6.75z"/><path d="M7.5 7.5h3v3h-3v-3zM13.5 7.5h3v3h-3v-3zM7.5 13.5h9v3h-9v-3z"/></svg>
-                        </div>
-                        <div>
-                            <div class="font-semibold">UI/UX Design</div>
-                            <div class="text-slate-500 text-[12px] leading-5">Desain modern berbasis riset pengguna.</div>
-                        </div>
+                    <div>
+                        <div class="text-xl font-semibold text-blue-600">2000+</div>
+                        <div class="text-[12px] text-slate-500">Klien Puas</div>
                     </div>
-                    <div class="flex items-start gap-3 p-4 rounded-xl border border-slate-200/70 hover:shadow-sm transition">
-                        <div class="w-9 h-9 rounded-lg bg-blue-600/10 text-blue-600 grid place-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M7.5 1.5A2.25 2.25 0 005.25 3.75v16.5A2.25 2.25 0 007.5 22.5h9a2.25 2.25 0 002.25-2.25V3.75A2.25 2.25 0 0016.5 1.5h-9zM9 3.75h6v.75H9v-.75zM12 19.5a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25z"/></svg>
-                        </div>
-                        <div>
-                            <div class="font-semibold">App Development</div>
-                            <div class="text-slate-500 text-[12px] leading-5">Web app, dashboard, API & integrasi.</div>
-                        </div>
-                    </div>
-                    <div class="flex items-start gap-3 p-4 rounded-xl border border-slate-200/70 hover:shadow-sm transition">
-                        <div class="w-9 h-9 rounded-lg bg-blue-600/10 text-blue-600 grid place-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5"><path d="M3 4.5A1.5 1.5 0 014.5 3h15A1.5 1.5 0 0121 4.5v15a1.5 1.5 0 01-1.5 1.5h-15A1.5 1.5 0 013 19.5v-15z"/><path d="M7.5 7.5h9v9h-9z"/></svg>
-                        </div>
-                        <div>
-                            <div class="font-semibold">Graphic Design</div>
-                            <div class="text-slate-500 text-[12px] leading-5">Logo, brand kit, social media assets.</div>
-                        </div>
+                    <div>
+                        <div class="text-xl font-semibold text-blue-600">99%</div>
+                        <div class="text-[12px] text-slate-500">Kepuasan Klien</div>
                     </div>
                 </div>
 
-                <div class="flex items-center gap-4">
-                    <a href="#services" class="px-6 py-3 rounded-full bg-blue-600 hover:bg-blue-700 text-white font-medium">Lihat Layanan</a>
-                    <a href="#contact" class="px-6 py-3 rounded-full bg-[#0b1530]/5 hover:bg-[#0b1530]/10 text-[#0b1530] font-medium border border-slate-200/70">Konsultasi Gratis</a>
+                <!-- Signature -->
+                <div>
+                    <div class="font-medium text-lg mb-1">Jenny Alexander</div>
+                    <div class="text-[12px] text-slate-500">Jenny Alexander • CEO</div>
                 </div>
             </div>
         </div>
@@ -265,18 +226,19 @@
     <section id="services" class="relative bg-[#f6f8ff]">
         <div
             class="absolute inset-x-0 top-4 select-none pointer-events-none text-[#0b1530]/5 font-extrabold tracking-tight text-6xl md:text-8xl text-center">
-            SERVICES</div>
+            LAYANAN</div>
         <div class="max-w-7xl mx-auto px-4 py-20">
             <div class="flex items-start justify-between gap-6 mb-10">
                 <div>
-                    <p class="text-blue-500 text-sm mb-2">// Our Services</p>
-                    <h2 class="text-[28px] md:text-4xl font-semibold text-[#0b1530] leading-snug" data-split>Services
-                        We Provide
-                        to<br /><span class="text-blue-600">Elevate Your Business</span></h2>
+                    <p class="text-blue-500 text-sm mb-2 [word-spacing:.15em]">// Layanan Kami</p>
+                    <h2 class="text-[28px] md:text-4xl font-semibold text-[#0b1530] leading-snug [word-spacing:.16em] md:[word-spacing:.22em]"
+                        data-split>Layanan
+                        yang Kami Sediakan
+                        untuk<br /><span class="text-blue-600">Mengembangkan Bisnis Anda</span></h2>
                 </div>
                 <a href="#"
-                    class="shrink-0 h-10 px-5 rounded-full bg-blue-600 hover:bg-blue-700 text-white text-sm grid place-items-center shadow-md">View
-                    All Services</a>
+                    class="shrink-0 h-10 px-5 rounded-full bg-blue-600 hover:bg-blue-700 text-white text-sm grid place-items-center shadow-md">Lihat
+                    Semua Layanan</a>
             </div>
 
             <div class="grid md:grid-cols-3 gap-6">
@@ -293,10 +255,11 @@
                                     clip-rule="evenodd" />
                             </svg>
                         </div>
-                        <h3 class="font-semibold text-[#0b1530] mb-2">Website Development</h3>
-                        <p class="text-slate-500 text-sm leading-6 mb-5">Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
-                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Learn more
+                        <h3 class="font-semibold text-[#0b1530] mb-2">Pengembangan Website</h3>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">Kami membangun website profesional yang cepat,
+                            aman, dan mudah dikelola untuk kebutuhan bisnis Anda.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Pelajari lebih
+                            lanjut
                             <span>→</span></a>
                     </div>
                     <div class="h-[3px] bg-gradient-to-r from-blue-600 to-blue-400"></div>
@@ -313,10 +276,11 @@
                                     d="M7.5 1.5A2.25 2.25 0 005.25 3.75v16.5A2.25 2.25 0 007.5 22.5h9a2.25 2.25 0 002.25-2.25V3.75A2.25 2.25 0 0016.5 1.5h-9zM9 3.75h6v.75H9v-.75zM12 19.5a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25z" />
                             </svg>
                         </div>
-                        <h3 class="font-semibold text-[#0b1530] mb-2">Mobile App Development</h3>
-                        <p class="text-slate-500 text-sm leading-6 mb-5">Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
-                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Learn more
+                        <h3 class="font-semibold text-[#0b1530] mb-2">Pengembangan Aplikasi Mobile</h3>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">Solusi aplikasi mobile yang intuitif dan
+                            scalable untuk Android dan iOS.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Pelajari lebih
+                            lanjut
                             <span>→</span></a>
                     </div>
                 </div>
@@ -333,10 +297,11 @@
                                 <path d="M7.5 7.5h3v3h-3v-3zM13.5 7.5h3v3h-3v-3zM7.5 13.5h9v3h-9v-3z" />
                             </svg>
                         </div>
-                        <h3 class="font-semibold text-[#0b1530] mb-2">UI/UX Design</h3>
-                        <p class="text-slate-500 text-sm leading-6 mb-5">Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
-                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Learn more
+                        <h3 class="font-semibold text-[#0b1530] mb-2">Desain UI/UX</h3>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">Desain antarmuka yang modern dan pengalaman
+                            pengguna yang optimal untuk meningkatkan konversi.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Pelajari lebih
+                            lanjut
                             <span>→</span></a>
                     </div>
                 </div>
@@ -348,11 +313,11 @@
     <section id="process" class="relative bg-white">
         <div
             class="absolute inset-x-0 top-6 select-none pointer-events-none text-[#0b1530]/5 font-extrabold tracking-tight text-6xl md:text-8xl text-center">
-            WORK PROCESS</div>
+            PROSES KERJA</div>
         <div class="max-w-7xl mx-auto px-4 py-20 text-center">
-            <p class="text-blue-500 text-sm mb-2">// Our Work Process</p>
-            <h2 class="text-[28px] md:text-4xl font-semibold text-[#0b1530] mb-12" data-split>Our Proven <span
-                    class="text-blue-600">Work Process</span></h2>
+            <p class="text-blue-500 text-sm mb-2 [word-spacing:.15em]">// Proses Kerja Kami</p>
+            <h2 class="text-[28px] md:text-4xl font-semibold text-[#0b1530] mb-12 [word-spacing:.16em] md:[word-spacing:.22em]"
+                data-split>Proses Kerja <span class="text-blue-600">Teruji</span></h2>
 
             <div class="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-6 items-start relative">
                 <div class="hidden md:block absolute left-0 right-0 top-8 h-px bg-slate-200"></div>
@@ -374,9 +339,8 @@
                             class="absolute -right-4 bottom-0 bg-[#0b1530] text-white text-xs font-semibold rounded-full px-2 py-1 shadow">
                             01</div>
                     </div>
-                    <div class="font-semibold text-[#0b1530] mb-1">Consultation</div>
-                    <div class="text-slate-500 text-sm leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit</div>
+                    <div class="font-semibold text-[#0b1530] mb-1">Konsultasi</div>
+                    <div class="text-slate-500 text-sm leading-6">Diskusi kebutuhan dan tujuan proyek Anda</div>
                 </div>
 
                 <!-- Step 2 -->
@@ -396,9 +360,8 @@
                             class="absolute -right-4 bottom-0 bg-[#0b1530] text-white text-xs font-semibold rounded-full px-2 py-1 shadow">
                             02</div>
                     </div>
-                    <div class="font-semibold text-[#0b1530] mb-1">Strategy</div>
-                    <div class="text-slate-500 text-sm leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit</div>
+                    <div class="font-semibold text-[#0b1530] mb-1">Strategi</div>
+                    <div class="text-slate-500 text-sm leading-6">Menyusun rencana dan timeline yang jelas</div>
                 </div>
 
                 <!-- Step 3 -->
@@ -418,9 +381,8 @@
                             class="absolute -right-4 bottom-0 bg-[#0b1530] text-white text-xs font-semibold rounded-full px-2 py-1 shadow">
                             03</div>
                     </div>
-                    <div class="font-semibold text-[#0b1530] mb-1">Implementation</div>
-                    <div class="text-slate-500 text-sm leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit</div>
+                    <div class="font-semibold text-[#0b1530] mb-1">Implementasi</div>
+                    <div class="text-slate-500 text-sm leading-6">Pengembangan fitur dan pengujian kualitas</div>
                 </div>
 
                 <!-- Step 4 -->
@@ -440,9 +402,8 @@
                             class="absolute -right-4 bottom-0 bg-[#0b1530] text-white text-xs font-semibold rounded-full px-2 py-1 shadow">
                             04</div>
                     </div>
-                    <div class="font-semibold text-[#0b1530] mb-1">Final Result</div>
-                    <div class="text-slate-500 text-sm leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit</div>
+                    <div class="font-semibold text-[#0b1530] mb-1">Hasil Akhir</div>
+                    <div class="text-slate-500 text-sm leading-6">Peluncuran dan dukungan purna jual</div>
                 </div>
             </div>
         </div>
@@ -459,13 +420,14 @@
             <!-- Watermark heading -->
             <div
                 class="absolute -top-6 left-4 md:left-6 text-6xl md:text-8xl tracking-tight text-white/5 select-none pointer-events-none">
-                WHY CHOOSE US</div>
+                MENGAPA MEMILIH KAMI</div>
 
             <div class="flex items-start justify-between mb-8">
                 <div>
-                    <p class="text-white/70 text-sm mb-2">Why Choose Us</p>
-                    <h2 class="text-3xl md:text-4xl font-semibold leading-snug" data-split>Why Trust Us for<br />Your
-                        IT Needs?
+                    <p class="text-white/70 text-sm mb-2 [word-spacing:.15em]">Mengapa Memilih Kami</p>
+                    <h2 class="text-3xl md:text-4xl font-semibold leading-snug [word-spacing:.16em] md:[word-spacing:.22em]"
+                        data-split>Mengapa Mempercayakan<br />
+                        Kebutuhan IT Anda kepada Kami?
                     </h2>
                 </div>
                 <div id="magnet-cta"></div>
@@ -501,9 +463,9 @@
                             </svg>
                         </div>
                         <div>
-                            <div class="font-semibold">Affordable Price</div>
-                            <p class="text-white/70 text-xs leading-6 max-w-[240px]">Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit</p>
+                            <div class="font-semibold">Harga Terjangkau</div>
+                            <p class="text-white/70 text-xs leading-6 max-w-[240px]">Paket fleksibel sesuai kebutuhan
+                                dan anggaran</p>
                         </div>
                     </div>
                     <div class="flex items-start gap-4">
@@ -515,9 +477,9 @@
                             </svg>
                         </div>
                         <div>
-                            <div class="font-semibold">Professional Team</div>
-                            <p class="text-white/70 text-xs leading-6 max-w-[240px]">Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit</p>
+                            <div class="font-semibold">Tim Profesional</div>
+                            <p class="text-white/70 text-xs leading-6 max-w-[240px]">Berpengalaman dan berorientasi
+                                hasil</p>
                         </div>
                     </div>
                     <div class="flex items-start gap-4">
@@ -528,9 +490,9 @@
                             </svg>
                         </div>
                         <div>
-                            <div class="font-semibold">18+ Years Experience</div>
-                            <p class="text-white/70 text-xs leading-6 max-w-[240px]">Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit</p>
+                            <div class="font-semibold">18+ Tahun Pengalaman</div>
+                            <p class="text-white/70 text-xs leading-6 max-w-[240px]">Keahlian mendalam di berbagai
+                                industri</p>
                         </div>
                     </div>
                     <div class="flex items-start gap-4">
@@ -542,9 +504,9 @@
                             </svg>
                         </div>
                         <div>
-                            <div class="font-semibold">Award Winning</div>
-                            <p class="text-white/70 text-xs leading-6 max-w-[240px]">Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit</p>
+                            <div class="font-semibold">Peraih Penghargaan</div>
+                            <p class="text-white/70 text-xs leading-6 max-w-[240px]">Diakui atas kualitas dan
+                                inovasi</p>
                         </div>
                     </div>
                 </div>
@@ -563,8 +525,9 @@
             PROYEK TERBARU</div>
         <div class="max-w-7xl mx-auto px-4 py-20">
             <div class="text-center mb-10">
-                <p class="text-blue-500 text-sm mb-2" data-reveal>// Proyek Terbaru Kami</p>
-                <h2 class="text-3xl md:text-4xl font-semibold text-[#0b1530]" data-reveal data-reveal-delay="60">
+                <p class="text-blue-500 text-sm mb-2 [word-spacing:.15em]" data-reveal>// Proyek Terbaru Kami</p>
+                <h2 class="text-3xl md:text-4xl font-semibold text-[#0b1530] [word-spacing:.16em] md:[word-spacing:.22em]"
+                    data-reveal data-reveal-delay="60">
                     Jelajahi Koleksi
                     <br class="hidden md:block" />
                     <span class="text-blue-600">Karya Unggulan</span>
@@ -625,56 +588,72 @@
     <section id="contact" class="relative bg-[#f6f8ff]">
         <div
             class="absolute inset-x-0 top-6 select-none pointer-events-none text-[#0b1530]/5 font-extrabold tracking-tight text-6xl md:text-8xl text-center">
-            CONTACT US</div>
+            HUBUNGI KAMI</div>
         <div class="max-w-7xl mx-auto px-4 py-20">
             <div class="text-center mb-12">
-                <p class="text-blue-500 text-sm mb-2">// Get In Touch</p>
-                <h2 class="text-3xl md:text-4xl font-semibold text-[#0b1530] mb-4" data-split>
-                    Ready to Start Your
+                <p class="text-blue-500 text-sm mb-2 [word-spacing:.15em]">// Hubungi Kami</p>
+                <h2 class="text-3xl md:text-4xl font-semibold text-[#0b1530] mb-4 [word-spacing:.18em] md:[word-spacing:.24em]"
+                    data-split>
+                    Siap Memulai
                     <br class="hidden md:block" />
-                    <span class="text-blue-600">Next Project?</span>
+                    <span class="text-blue-600">Proyek Berikutnya?</span>
                 </h2>
                 <p class="text-slate-600 text-sm max-w-2xl mx-auto">
-                    Let's discuss your ideas and bring them to life. Get in touch with our team for a free consultation.
+                    Diskusikan ide Anda bersama tim kami dan wujudkan menjadi solusi digital yang nyata.
                 </p>
             </div>
 
             <div class="grid lg:grid-cols-2 gap-12 items-start">
                 <!-- Contact Form -->
                 <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 p-8">
-                    <h3 class="font-semibold text-xl text-[#0b1530] mb-6">Free Consultation</h3>
+                    <h3 class="font-semibold text-xl text-[#0b1530] mb-6">Konsultasi Gratis</h3>
                     <form class="space-y-6">
                         <!-- Name Field -->
                         <div>
+<<<<<<< Updated upstream
+                            <label for="name" class="block text-sm font-medium text-[#0b1530] mb-2">Nama
+                                Lengkap</label>
+=======
                             <label for="name" class="block text-sm font-medium text-[#0b1530] mb-2">Full
                                 Name</label>
+>>>>>>> Stashed changes
                             <input type="text" id="name" name="name" required
                                 class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-colors text-sm"
-                                placeholder="Enter your full name">
+                                placeholder="Masukkan nama lengkap Anda">
                         </div>
 
                         <!-- Email Field -->
                         <div>
+<<<<<<< Updated upstream
+                            <label for="email" class="block text-sm font-medium text-[#0b1530] mb-2">Alamat
+                                Email</label>
+=======
                             <label for="email" class="block text-sm font-medium text-[#0b1530] mb-2">Email
                                 Address</label>
+>>>>>>> Stashed changes
                             <input type="email" id="email" name="email" required
                                 class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-colors text-sm"
-                                placeholder="Enter your email address">
+                                placeholder="Masukkan alamat email Anda">
                         </div>
 
                         <!-- Requirements Field -->
                         <div>
+<<<<<<< Updated upstream
+                            <label for="requirements" class="block text-sm font-medium text-[#0b1530] mb-2">Kebutuhan
+                                Proyek</label>
+=======
                             <label for="requirements" class="block text-sm font-medium text-[#0b1530] mb-2">Project
                                 Requirements</label>
+>>>>>>> Stashed changes
                             <textarea id="requirements" name="requirements" rows="4" required
                                 class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-colors text-sm resize-none"
-                                placeholder="Tell us about your project requirements, goals, and timeline..."></textarea>
+                                placeholder="Ceritakan kebutuhan, tujuan, dan timeline proyek Anda..."></textarea>
                         </div>
 
                         <!-- Submit Button -->
                         <button type="submit"
                             class="w-full px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-medium text-sm transition-colors shadow-md">
-                            Send Consultation Request
+                            Kirim Permintaan Konsultasi
                         </button>
                     </form>
                 </div>
@@ -696,7 +675,7 @@
                             <div>
                                 <p class="font-medium text-[#0b1530]">WhatsApp</p>
                                 <p class="text-slate-600 text-sm">+62 812-3456-7890</p>
-                                <p class="text-slate-500 text-xs">Available 24/7 for quick responses</p>
+                                <p class="text-slate-500 text-xs">Tersedia 24/7 untuk respon cepat</p>
                             </div>
                         </div>
 
@@ -715,7 +694,7 @@
                             <div>
                                 <p class="font-medium text-[#0b1530]">Email</p>
                                 <p class="text-slate-600 text-sm">info@itcompany.com</p>
-                                <p class="text-slate-500 text-xs">We'll respond within 24 hours</p>
+                                <p class="text-slate-500 text-xs">Kami akan merespons dalam 24 jam</p>
                             </div>
                         </div>
 
@@ -731,16 +710,16 @@
                                 </svg>
                             </div>
                             <div>
-                                <p class="font-medium text-[#0b1530]">Office Address</p>
-                                <p class="text-slate-600 text-sm">Makassar, South Sulawesi</p>
-                                <p class="text-slate-500 text-xs">Visit us for in-person consultation</p>
+                                <p class="font-medium text-[#0b1530]">Alamat Kantor</p>
+                                <p class="text-slate-600 text-sm">Makassar, Sulawesi Selatan</p>
+                                <p class="text-slate-500 text-xs">Kunjungi kami untuk konsultasi langsung</p>
                             </div>
                         </div>
                     </div>
 
                     <!-- Social Media -->
                     <div class="bg-white rounded-xl shadow-sm border border-slate-200/70 p-6">
-                        <h4 class="font-semibold text-[#0b1530] mb-4">Follow Us</h4>
+                        <h4 class="font-semibold text-[#0b1530] mb-4">Ikuti Kami</h4>
                         <div class="flex items-center gap-4">
                             <!-- Instagram -->
                             <a href="#"
@@ -768,19 +747,19 @@
 
                     <!-- Business Hours -->
                     <div class="bg-white rounded-xl shadow-sm border border-slate-200/70 p-6">
-                        <h4 class="font-semibold text-[#0b1530] mb-4">Business Hours</h4>
+                        <h4 class="font-semibold text-[#0b1530] mb-4">Jam Operasional</h4>
                         <div class="space-y-2 text-sm">
                             <div class="flex justify-between">
-                                <span class="text-slate-600">Monday - Friday</span>
+                                <span class="text-slate-600">Senin - Jumat</span>
                                 <span class="font-medium text-[#0b1530]">09:00 - 18:00</span>
                             </div>
                             <div class="flex justify-between">
-                                <span class="text-slate-600">Saturday</span>
+                                <span class="text-slate-600">Sabtu</span>
                                 <span class="font-medium text-[#0b1530]">10:00 - 16:00</span>
                             </div>
                             <div class="flex justify-between">
-                                <span class="text-slate-600">Sunday</span>
-                                <span class="font-medium text-[#0b1530]">Closed</span>
+                                <span class="text-slate-600">Minggu</span>
+                                <span class="font-medium text-[#0b1530]">Tutup</span>
                             </div>
                         </div>
                     </div>
@@ -799,11 +778,11 @@
                     <div class="flex items-center gap-2 mb-6">
                         <span
                             class="w-9 h-9 rounded-full bg-blue-500 grid place-items-center text-white font-semibold">IT</span>
-                        <span class="font-semibold text-xl">IT Company.</span>
+                        <span class="font-semibold text-xl">Perusahaan IT.</span>
                     </div>
                     <p class="text-white/70 text-sm leading-6 mb-6 max-w-md">
-                        Transforming ideas into digital reality with cutting-edge technology solutions.
-                        We deliver exceptional IT services that drive business growth and innovation.
+                        Mengubah ide menjadi realitas digital dengan solusi teknologi terkini.
+                        Kami menghadirkan layanan IT terbaik untuk mendorong pertumbuhan dan inovasi bisnis.
                     </p>
                     <!-- Social Links -->
                     <div class="flex items-center gap-3">
@@ -844,9 +823,20 @@
 
                 <!-- Quick Links -->
                 <div>
-                    <h3 class="font-semibold text-lg mb-6">Quick Links</h3>
+                    <h3 class="font-semibold text-lg mb-6">Tautan Cepat</h3>
                     <ul class="space-y-3">
                         <li><a href="#home"
+<<<<<<< Updated upstream
+                                class="text-white/70 hover:text-white transition-colors text-sm">Beranda</a></li>
+                        <li><a href="#services"
+                                class="text-white/70 hover:text-white transition-colors text-sm">Layanan</a></li>
+                        <li><a href="#projects"
+                                class="text-white/70 hover:text-white transition-colors text-sm">Proyek</a></li>
+                        <li><a href="#about" class="text-white/70 hover:text-white transition-colors text-sm">Tentang
+                                Kami</a></li>
+                        <li><a href="#contact"
+                                class="text-white/70 hover:text-white transition-colors text-sm">Kontak</a></li>
+=======
                                 class="text-white/70 hover:text-white transition-colors text-sm">Home</a></li>
                         <li><a href="#services"
                                 class="text-white/70 hover:text-white transition-colors text-sm">Services</a></li>
@@ -856,26 +846,30 @@
                                 Us</a></li>
                         <li><a href="#contact"
                                 class="text-white/70 hover:text-white transition-colors text-sm">Contact</a></li>
+>>>>>>> Stashed changes
                     </ul>
                 </div>
 
                 <!-- Services -->
                 <div>
-                    <h3 class="font-semibold text-lg mb-6">Services</h3>
+                    <h3 class="font-semibold text-lg mb-6">Layanan</h3>
                     <ul class="space-y-3">
-                        <li><a href="#" class="text-white/70 hover:text-white transition-colors text-sm">Website
-                                Development</a></li>
-                        <li><a href="#" class="text-white/70 hover:text-white transition-colors text-sm">Mobile
-                                App Development</a></li>
-                        <li><a href="#" class="text-white/70 hover:text-white transition-colors text-sm">UI/UX
-                                Design</a></li>
                         <li><a href="#"
-                                class="text-white/70 hover:text-white transition-colors text-sm">Graphics Design</a>
+                                class="text-white/70 hover:text-white transition-colors text-sm">Pengembangan
+                                Website</a></li>
+                        <li><a href="#"
+                                class="text-white/70 hover:text-white transition-colors text-sm">Pengembangan
+                                Aplikasi Mobile</a></li>
+                        <li><a href="#" class="text-white/70 hover:text-white transition-colors text-sm">Desain
+                                UI/UX</a></li>
+                        <li><a href="#" class="text-white/70 hover:text-white transition-colors text-sm">Desain
+                                Grafis</a>
                         </li>
-                        <li><a href="#" class="text-white/70 hover:text-white transition-colors text-sm">Digital
-                                Marketing</a></li>
                         <li><a href="#"
-                                class="text-white/70 hover:text-white transition-colors text-sm">Consulting</a></li>
+                                class="text-white/70 hover:text-white transition-colors text-sm">Pemasaran
+                                Digital</a></li>
+                        <li><a href="#"
+                                class="text-white/70 hover:text-white transition-colors text-sm">Konsultasi</a></li>
                     </ul>
                 </div>
             </div>
@@ -893,7 +887,7 @@
                             </svg>
                         </div>
                         <div>
-                            <p class="text-white/70 text-sm">Phone</p>
+                            <p class="text-white/70 text-sm">Telepon</p>
                             <p class="text-white font-medium">(000) 000-0000</p>
                         </div>
                     </div>
@@ -910,7 +904,7 @@
                             </svg>
                         </div>
                         <div>
-                            <p class="text-white/70 text-sm">Email</p>
+                            <p class="text-white/70 text-sm">Surel</p>
                             <p class="text-white font-medium">example@gmail.com</p>
                         </div>
                     </div>
@@ -926,7 +920,7 @@
                             </svg>
                         </div>
                         <div>
-                            <p class="text-white/70 text-sm">Address</p>
+                            <p class="text-white/70 text-sm">Alamat</p>
                             <p class="text-white font-medium">2464 Royal Ln. Mesa, New Jersey 45463</p>
                         </div>
                     </div>
@@ -937,15 +931,15 @@
             <div class="border-t border-white/10 pt-6">
                 <div class="flex flex-col md:flex-row items-center justify-between gap-4">
                     <p class="text-white/60 text-sm">
-                        © 2024 IT Company. All rights reserved. Designed with ❤️ for your success.
+                        © 2024 Perusahaan IT. Hak cipta dilindungi. Dibuat dengan ❤️ untuk kesuksesan Anda.
                     </p>
                     <div class="flex items-center gap-6">
-                        <a href="#" class="text-white/60 hover:text-white transition-colors text-sm">Privacy
-                            Policy</a>
-                        <a href="#" class="text-white/60 hover:text-white transition-colors text-sm">Terms of
-                            Service</a>
-                        <a href="#" class="text-white/60 hover:text-white transition-colors text-sm">Cookie
-                            Policy</a>
+                        <a href="#" class="text-white/60 hover:text-white transition-colors text-sm">Kebijakan
+                            Privasi</a>
+                        <a href="#" class="text-white/60 hover:text-white transition-colors text-sm">Syarat
+                            Layanan</a>
+                        <a href="#" class="text-white/60 hover:text-white transition-colors text-sm">Kebijakan
+                            Cookie</a>
                     </div>
                 </div>
             </div>

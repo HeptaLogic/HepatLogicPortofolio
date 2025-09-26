@@ -85,6 +85,12 @@ function initSplitText() {
             const text = textNode.nodeValue;
             const frag = document.createDocumentFragment();
             [...text].forEach((ch) => {
+                // Preserve actual spaces and newlines as text nodes so word spacing remains
+                if (ch === ' ' || ch === '\n' || ch === '\t') {
+                    frag.appendChild(document.createTextNode(ch));
+                    index++; // keep timing consistent
+                    return;
+                }
                 const span = document.createElement('span');
                 span.textContent = ch;
                 frag.appendChild(span);
