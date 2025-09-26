@@ -21,6 +21,11 @@
     }
 }
 
+/* Reusable marquee ribbon */
+.ribbon-marquee { overflow: hidden; }
+.ribbon-track { display: inline-flex; white-space: nowrap; animation: marquee 28s linear infinite; }
+.ribbon-track > * { padding-left: 2rem; padding-right: 2rem; }
+
 /* Subtle glow effect for hero title after reveal */
 #hero-title[data-split-done="true"] {
     text-shadow: 0 0 0 rgba(59,130,246,0);
@@ -35,3 +40,11 @@
 
 /* Smooth open/close container for mobile menu */
 #mobile-nav { overflow: hidden; max-height: 0; transition: max-height 200ms ease; }
+
+/* GPU hint for smoother hover transforms */
+.will-change-transform { will-change: transform; }
+
+/* Utility: tiny breakpoint alias for ~360-400px if needed */
+@media (max-width: 400px) {
+    .xs\:flex-row { flex-direction: row !important; }
+}

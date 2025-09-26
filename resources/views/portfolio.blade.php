@@ -9,6 +9,7 @@
 
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     @viteReactRefresh
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -48,18 +49,6 @@
                 </div>
             </div>
             <div class="hidden sm:flex items-center gap-3">
-                <a href="#" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 grid place-items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
-                        <path
-                            d="M22.675 0h-21.35C.595 0 0 .594 0 1.326v21.348C0 23.406.595 24 1.326 24h11.495v-9.294H9.691V11.01h3.13V8.41c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.098 2.794.142v3.24l-1.918.001c-1.504 0-1.796.716-1.796 1.766v2.316h3.588l-.467 3.696h-3.121V24h6.116C23.406 24 24 23.406 24 22.674V1.326C24 .594 23.406 0 22.675 0z" />
-                    </svg>
-                </a>
-                <a href="#" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 grid place-items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
-                        <path
-                            d="M23.954 4.569c-.885.392-1.83.656-2.825.775 1.014-.611 1.794-1.574 2.163-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-2.723 0-4.928 2.206-4.928 4.93 0 .386.045.762.127 1.124C7.69 8.095 4.066 6.13 1.64 3.161c-.423.722-.666 1.561-.666 2.475 0 1.708.87 3.213 2.19 4.099-.807-.025-1.566-.248-2.229-.616v.062c0 2.386 1.697 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.376 4.6 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.402 4.768 2.219 7.557 2.219 9.054 0 14.002-7.496 14.002-13.986 0-.21 0-.423-.016-.633.961-.695 1.8-1.562 2.46-2.549z" />
-                    </svg>
-                </a>
                 <a href="https://www.instagram.com/heptalogic.id?utm_source=qr&igsh=MXhmaXZ2NzZuNjZpZQ=="
                     class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 grid place-items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-4 h-4">
@@ -75,22 +64,34 @@
     <header class="border-b border-white/10 bg-[#0b1530]/80 backdrop-blur">
         <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="/" class="flex items-center gap-2">
-                <span
-                    class="w-9 h-9 rounded-full bg-blue-500 grid place-items-center text-white font-semibold">HL</span>
+                <img src="{{ Vite::asset('resources/images/heptalogic-logo.png') }}" alt="Heptalogic" class="w-9 h-9 object-contain" />
                 <span class="font-semibold">HEPTALOGIC</span>
             </a>
-            <nav class="hidden md:flex items-center gap-6 text-white/80">
-
-                <a href="#home" class="hover:text-white">Beranda</a>
-                <a href="#about" class="hover:text-white">Tentang Kami</a>
-                <a href="#projects" class="hover:text-white">Layanan</a>
-                <a href="#blogs" class="hover:text-white">Projects</a>
-                <a href="#about" class="hover:text-white">Kontak</a>
-
+            <button id="nav-toggle" aria-label="Toggle menu" aria-controls="nav-mobile"
+                class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-lg bg-white/10 hover:bg-white/15 text-white z-20">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-6 h-6">
+                    <path d="M4 6.5h16M4 12h16M4 17.5h16" stroke="white" stroke-width="1.8" stroke-linecap="round" fill="none" />
+                </svg>
+            </button>
+            <nav id="nav-menu" class="hidden md:flex items-center gap-6 text-white/80">
+                <a href="#home" class="hover:text-white nav-link">Beranda</a>
+                <a href="#about" class="hover:text-white nav-link">Tentang Kami</a>
+                <a href="#services" class="hover:text-white nav-link">Layanan</a>
+                <a href="#projects" class="hover:text-white nav-link">Proyek</a>
+                <a href="#contact" class="hover:text-white nav-link">Kontak</a>
             </nav>
-            <a href="#"
+            <a href="#contact"
                 class="hidden sm:inline-block px-5 py-2 rounded-full bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium shadow-md">Minta
                 Penawaran</a>
+        </div>
+        <div id="nav-mobile" class="md:hidden hidden border-t border-white/10 bg-[#0b1530]">
+            <div class="max-w-7xl mx-auto px-4 py-3 grid gap-3 text-white/80">
+                <a href="#home" class="hover:text-white nav-link">Beranda</a>
+                <a href="#about" class="hover:text-white nav-link">Tentang Kami</a>
+                <a href="#services" class="hover:text-white nav-link">Layanan</a>
+                <a href="#projects" class="hover:text-white nav-link">Proyek</a>
+                <a href="#contact" class="hover:text-white nav-link">Kontak</a>
+            </div>
         </div>
     </header>
 
@@ -106,33 +107,38 @@
                 <p class="text-white/80 italic mb-4">"Dari Logika, Hadirkan Solusi."</p>
                 <p class="text-white/70 mb-8 max-w-xl">Hepta Logic menghadirkan layanan pengembangan website dan
                     aplikasi dengan desain modern, teknologi terbaru, dan hasil yang dapat diandalkan.</p>
-                <div class="flex items-center gap-4">
+                <div class="flex flex-col xs:flex-row items-stretch xs:items-center gap-3 xs:gap-4 w-full max-w-sm">
                     <a href="#services"
-                        class="px-6 py-3 rounded-full bg-blue-500 hover:bg-blue-600 text-white font-medium inline-flex items-center gap-2">
+                        class="px-5 py-3 rounded-full bg-blue-500 hover:bg-blue-600 text-white font-medium inline-flex items-center justify-center gap-2 text-sm md:text-base">
                         <span>Lihat Layanan</span>
                         <span class="inline-grid place-items-center w-5 h-5 rounded-full bg-white/20">→</span>
                     </a>
-                    <a href="#about"
-                        class="px-6 py-3 rounded-full bg-white/10 hover:bg-white/20 text-white font-medium">Konsultasi
+                    <a href="#contact"
+                        class="px-5 py-3 rounded-full bg-white/10 hover:bg-white/20 text-white font-medium text-sm md:text-base text-center">Konsultasi
                         Gratis</a>
                 </div>
             </div>
-            <div class="relative">
-                <div class="rounded-lg overflow-hidden border border-white/10 shadow-[0_10px_25px_rgba(0,0,0,0.3)]">
+            <div class="relative group">
+                <div class="rounded-lg overflow-hidden border border-white/10 shadow-[0_10px_25px_rgba(0,0,0,0.3)] will-change-transform transition-transform duration-700 group-hover:shadow-[0_20px_40px_rgba(0,0,0,0.45)] group-hover:-translate-y-1">
                     <img src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?q=80&w=1200&auto=format&fit=crop"
-                        alt="Team" class="w-full h-[420px] object-cover">
+                        alt="Team" class="w-full h-[420px] object-cover transition-transform duration-700 group-hover:scale-[1.04]">
                 </div>
+                <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 transition-opacity duration-700 group-hover:opacity-100"></div>
             </div>
         </div>
 
-        <!-- Service ribbon -->
-        <div class="bg-blue-600">
-            <div
-                class="max-w-7xl mx-auto px-4 py-4 grid grid-cols-2 md:grid-cols-4 gap-3 text-center text-white font-medium">
-                <div>Pengembangan Website</div>
-                <div>Desain UX/UI</div>
-                <div>Desain Grafis</div>
-                <div class="hidden md:block">Pengembangan Aplikasi</div>
+        <!-- Service ribbon (marquee) -->
+        <div class="bg-blue-600 ribbon-marquee">
+            <div class="ribbon-track text-white font-medium py-4">
+                <span>Pengembangan Website</span>
+                <span>Desain UX/UI</span>
+                <span>Desain Grafis</span>
+                <span>Pengembangan Aplikasi</span>
+                <!-- duplicate for seamless loop -->
+                <span>Pengembangan Website</span>
+                <span>Desain UX/UI</span>
+                <span>Desain Grafis</span>
+                <span>Pengembangan Aplikasi</span>
             </div>
         </div>
     </section>
@@ -145,37 +151,29 @@
             <!-- Collage -->
             <div class="relative">
                 <div class="relative grid grid-cols-2 gap-4 w-full max-w-[540px]">
-                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md">
-                        <img class="w-full h-48 md:h-56 object-cover"
+                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md will-change-transform transition-transform duration-500 hover:-translate-y-1">
+                        <img class="w-full h-48 md:h-56 object-cover transition-transform duration-500 hover:scale-[1.06]"
                             src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=800&auto=format&fit=crop"
                             alt="team-1">
                     </div>
-                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md">
-                        <img class="w-full h-48 md:h-56 object-cover"
+                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md will-change-transform transition-transform duration-500 hover:-translate-y-1">
+                        <img class="w-full h-48 md:h-56 object-cover transition-transform duration-500 hover:scale-[1.06]"
                             src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=800&auto=format&fit=crop"
                             alt="team-2">
                     </div>
-                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md">
-                        <img class="w-full h-48 md:h-56 object-cover"
+                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md will-change-transform transition-transform duration-500 hover:-translate-y-1">
+                        <img class="w-full h-48 md:h-56 object-cover transition-transform duration-500 hover:scale-[1.06]"
                             src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=800&auto=format&fit=crop"
                             alt="team-3">
                     </div>
-                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md">
-                        <img class="w-full h-48 md:h-56 object-cover"
+                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md will-change-transform transition-transform duration-500 hover:-translate-y-1">
+                        <img class="w-full h-48 md:h-56 object-cover transition-transform duration-500 hover:scale-[1.06]"
                             src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?q=80&w=800&auto=format&fit=crop"
                             alt="team-4">
                     </div>
                 </div>
 
-                <!-- Badge -->
-                <div class="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
-                    <div
-                        class="w-24 h-24 rounded-full bg-white shadow-lg grid place-items-center border-2 border-blue-500">
-                        <div
-                            class="w-16 h-16 rounded-full bg-blue-600 grid place-items-center text-white text-xs font-semibold">
-                            10+<br />Years</div>
-                    </div>
-                </div>
+                
 
                 <!-- Decorative stars -->
                 <div class="absolute -left-6 bottom-10 text-blue-600">
@@ -194,29 +192,11 @@
                     Mengubah <span class="text-blue-600">Ide</span><br class="hidden md:block" /> menjadi <span
                         class="text-blue-600">Realitas Digital</span>
                 </h2>
-                <p class="text-slate-600 mb-8 max-w-xl">Kami membantu bisnis Anda tumbuh melalui solusi digital yang
-                    modern, aman, dan berkinerja tinggi.</p>
+                <p class="text-slate-600 mb-8 max-w-xl">Kami berkomitmen untuk menghadirkan teknologi inovatif yang membantu bisnis berkembang lebih cepat, efisien, dan berdaya saing tinggi.</p>
 
                 <!-- Metrics -->
-                <div class="grid grid-cols-3 gap-6 mb-10">
-                    <div>
-                        <div class="text-xl font-semibold text-blue-600">150+</div>
-                        <div class="text-[12px] text-slate-500">Anggota Tim</div>
-                    </div>
-                    <div>
-                        <div class="text-xl font-semibold text-blue-600">2000+</div>
-                        <div class="text-[12px] text-slate-500">Klien Puas</div>
-                    </div>
-                    <div>
-                        <div class="text-xl font-semibold text-blue-600">99%</div>
-                        <div class="text-[12px] text-slate-500">Kepuasan Klien</div>
-                    </div>
-                </div>
-
-                <!-- Signature -->
-                <div>
-                    <div class="font-medium text-lg mb-1">Jenny Alexander</div>
-                    <div class="text-[12px] text-slate-500">Jenny Alexander • CEO</div>
+                <div class="gap-6 mb-10">
+                    <a href="#contact" class="btn p-4 bg-blue-600 text-white rounded hover:bg-blue-900">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -236,14 +216,11 @@
                         yang Kami Sediakan
                         untuk<br /><span class="text-blue-600">Mengembangkan Bisnis Anda</span></h2>
                 </div>
-                <a href="#"
-                    class="shrink-0 h-10 px-5 rounded-full bg-blue-600 hover:bg-blue-700 text-white text-sm grid place-items-center shadow-md">Lihat
-                    Semua Layanan</a>
             </div>
 
-            <div class="grid md:grid-cols-3 gap-6">
-                <!-- Card 1 -->
-                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden">
+            <div class="grid md:grid-cols-2 sm:grid-cols-1 gap-6">
+               <!-- Card 1 -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden" data-aos="fade-down-right" data-aos-duration="1000">
                     <div class="p-6">
                         <div
                             class="w-12 h-12 rounded-xl bg-blue-600/10 text-blue-600 grid place-items-center mb-4 shadow-inner">
@@ -255,18 +232,14 @@
                                     clip-rule="evenodd" />
                             </svg>
                         </div>
-                        <h3 class="font-semibold text-[#0b1530] mb-2">Pengembangan Website</h3>
-                        <p class="text-slate-500 text-sm leading-6 mb-5">Kami membangun website profesional yang cepat,
-                            aman, dan mudah dikelola untuk kebutuhan bisnis Anda.</p>
-                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Pelajari lebih
-                            lanjut
-                            <span>→</span></a>
+                        <h3 class="font-semibold text-[#0b1530] mb-2">Website Development</h3>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">pembuatan dan pengembangan website, mulai dari company profile, e-commerce, blog, hingga sistem berbasis web.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Website responsif, cepat, SEO-friendly, dengan fitur sesuai kebutuhan klien. </a>
                     </div>
-                    <div class="h-[3px] bg-gradient-to-r from-blue-600 to-blue-400"></div>
                 </div>
 
                 <!-- Card 2 -->
-                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden">
+                 <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden" data-aos="fade-down-right" data-aos-duration="1000">
                     <div class="p-6">
                         <div
                             class="w-12 h-12 rounded-xl bg-blue-600/10 text-blue-600 grid place-items-center mb-4 shadow-inner">
@@ -276,17 +249,14 @@
                                     d="M7.5 1.5A2.25 2.25 0 005.25 3.75v16.5A2.25 2.25 0 007.5 22.5h9a2.25 2.25 0 002.25-2.25V3.75A2.25 2.25 0 0016.5 1.5h-9zM9 3.75h6v.75H9v-.75zM12 19.5a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25z" />
                             </svg>
                         </div>
-                        <h3 class="font-semibold text-[#0b1530] mb-2">Pengembangan Aplikasi Mobile</h3>
-                        <p class="text-slate-500 text-sm leading-6 mb-5">Solusi aplikasi mobile yang intuitif dan
-                            scalable untuk Android dan iOS.</p>
-                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Pelajari lebih
-                            lanjut
-                            <span>→</span></a>
+                        <h3 class="font-semibold text-[#0b1530] mb-2">Mobile App Development</h3>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">pembuatan aplikasi mobile berbasis Android dan iOS, baik aplikasi publik maupun aplikasi internal perusahaan.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Aplikasi bisnis, marketplace, aplikasi edukasi, hingga aplikasi internal perusahaan.</a>
                     </div>
                 </div>
 
                 <!-- Card 3 -->
-                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden">
+                 <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden" data-aos="fade-down-right" data-aos-duration="2000">
                     <div class="p-6">
                         <div
                             class="w-12 h-12 rounded-xl bg-blue-600/10 text-blue-600 grid place-items-center mb-4 shadow-inner">
@@ -297,14 +267,29 @@
                                 <path d="M7.5 7.5h3v3h-3v-3zM13.5 7.5h3v3h-3v-3zM7.5 13.5h9v3h-9v-3z" />
                             </svg>
                         </div>
-                        <h3 class="font-semibold text-[#0b1530] mb-2">Desain UI/UX</h3>
-                        <p class="text-slate-500 text-sm leading-6 mb-5">Desain antarmuka yang modern dan pengalaman
-                            pengguna yang optimal untuk meningkatkan konversi.</p>
-                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Pelajari lebih
-                            lanjut
-                            <span>→</span></a>
+                        <h3 class="font-semibold text-[#0b1530] mb-2">UI/UX Design</h3>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">perancangan tampilan (User Interface) dan pengalaman pengguna (User Experience) untuk aplikasi atau website.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Wireframe, prototype interaktif, serta desain visual yang konsisten dengan brand identity.</a>
                     </div>
                 </div>
+                <!-- Card 4 -->
+                 <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden" data-aos="fade-down-right" data-aos-duration="2000">
+                    <div class="p-6">
+                        <div
+                            class="w-12 h-12 rounded-xl bg-blue-600/10 text-blue-600 grid place-items-center mb-4 shadow-inner">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-6 h-6">
+                                <path
+                                    d="M3 6.75A2.25 2.25 0 015.25 4.5h13.5A2.25 2.25 0 0121 6.75v10.5A2.25 2.25 0 0118.75 19.5H5.25A2.25 2.25 0 013 17.25V6.75z" />
+                                <path d="M7.5 7.5h3v3h-3v-3zM13.5 7.5h3v3h-3v-3zM7.5 13.5h9v3h-9v-3z" />
+                            </svg>
+                        </div>
+                        <h3 class="font-semibold text-[#0b1530] mb-2">Graphic Design</h3>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">Pembuatan desain visual yang menarik dan profesional untuk kebutuhan branding, promosi, maupun media digital dan cetak.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">desain logo, poster, brosur, banner, konten media sosial, serta elemen visual lainnya yang mendukung identitas brand.</a>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </section>
@@ -411,9 +396,18 @@
 
     <!-- Why Choose Us Section -->
     <section id="why" class="relative bg-[#0d1835] text-white">
-        <!-- Top ribbon -->
-        <div class="bg-[#3c6cf3] text-white/95 text-sm">
-            <div id="rb-top"></div>
+        <!-- Top ribbon (marquee) -->
+        <div class="bg-[#3c6cf3] text-white/95 text-sm ribbon-marquee">
+            <div class="ribbon-track py-3">
+                <span class="px-6">Harga Terjangkau</span>
+                <span class="px-6">Tim Profesional</span>
+                <span class="px-6">18+ Tahun Pengalaman</span>
+                <span class="px-6">Peraih Penghargaan</span>
+                <span class="px-6">Harga Terjangkau</span>
+                <span class="px-6">Tim Profesional</span>
+                <span class="px-6">18+ Tahun Pengalaman</span>
+                <span class="px-6">Peraih Penghargaan</span>
+            </div>
         </div>
 
         <div class="max-w-7xl mx-auto px-4 py-16 md:py-20 relative">
@@ -513,9 +507,18 @@
             </div>
         </div>
 
-        <!-- Bottom ribbon -->
-        <div class="bg-[#3c6cf3] text-white/95 text-sm">
-            <div id="rb-bottom"></div>
+        <!-- Bottom ribbon (marquee) -->
+        <div class="bg-[#3c6cf3] text-white/95 text-sm ribbon-marquee">
+            <div class="ribbon-track py-3">
+                <span class="px-6">Dukungan Purna Jual</span>
+                <span class="px-6">Teknologi Terkini</span>
+                <span class="px-6">Fokus Hasil</span>
+                <span class="px-6">Kolaborasi Mudah</span>
+                <span class="px-6">Dukungan Purna Jual</span>
+                <span class="px-6">Teknologi Terkini</span>
+                <span class="px-6">Fokus Hasil</span>
+                <span class="px-6">Kolaborasi Mudah</span>
+            </div>
         </div>
     </section>
     <!-- Projects Section -->
@@ -794,9 +797,8 @@
                 <!-- Company Info -->
                 <div class="lg:col-span-2">
                     <div class="flex items-center gap-2 mb-6">
-                        <span
-                            class="w-9 h-9 rounded-full bg-blue-500 grid place-items-center text-white font-semibold">IT</span>
-                        <span class="font-semibold text-xl">Perusahaan IT.</span>
+                        <img src="{{ Vite::asset('resources/images/heptalogic-logo.png') }}" alt="Heptalogic" class="w-9 h-9 object-contain" />
+                        <span class="font-semibold text-xl">HEPTALOGIC</span>
                     </div>
                     <p class="text-white/70 text-sm leading-6 mb-6 max-w-md">
                         Mengubah ide menjadi realitas digital dengan solusi teknologi terkini.
@@ -853,17 +855,6 @@
                                 Kami</a></li>
                         <li><a href="#contact"
                                 class="text-white/70 hover:text-white transition-colors text-sm">Kontak</a></li>
-                        =======
-                        class="text-white/70 hover:text-white transition-colors text-sm">Home</a></li>
-                        <li><a href="#services"
-                                class="text-white/70 hover:text-white transition-colors text-sm">Services</a></li>
-                        <li><a href="#projects"
-                                class="text-white/70 hover:text-white transition-colors text-sm">Projects</a></li>
-                        <li><a href="#about" class="text-white/70 hover:text-white transition-colors text-sm">About
-                                Us</a></li>
-                        <li><a href="#contact"
-                                class="text-white/70 hover:text-white transition-colors text-sm">Contact</a></li>
-                        >>>>>>> Stashed changes
                     </ul>
                 </div>
 
@@ -962,6 +953,13 @@
             </div>
         </div>
     </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
