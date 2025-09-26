@@ -25,7 +25,7 @@
                         <path
                             d="M2.25 6.75c0-1.243 1.007-2.25 2.25-2.25h3.5c.966 0 1.818.62 2.121 1.539l.89 2.672a2.25 2.25 0 01-.54 2.297l-1.116 1.117a16.5 16.5 0 006.364 6.364l1.116-1.116a2.25 2.25 0 012.298-.54l2.671.89A2.25 2.25 0 0121.5 18v3.5a2.25 2.25 0 01-2.25 2.25H18C9.716 23.75 2.25 16.284 2.25 8V6.75z" />
                     </svg>
-                    <span>(000) 000-0000</span>
+                    <span>+62 822-3623-4227</span>
                 </div>
                 <div class="hidden sm:flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -44,7 +44,7 @@
                             d="M11.47.659a.75.75 0 01.997 0l9 8.25a.75.75 0 01-1.004 1.112L21 9.277V21a2.25 2.25 0 01-2.25 2.25h-4.5a.75.75 0 01-.75-.75v-5.25a1.5 1.5 0 00-1.5-1.5h-1.5a1.5 1.5 0 00-1.5 1.5v5.25a.75.75 0 01-.75.75h-4.5A2.25 2.25 0 013 21V9.277l-.463.744a.75.75 0 11-1.004-1.112l9-8.25z"
                             clip-rule="evenodd" />
                     </svg>
-                    <span>2464 Royal Ln. Mesa, New Jersey 45463</span>
+                    <span>Makassar, South Sulawesi</span>
                 </div>
             </div>
             <div class="hidden sm:flex items-center gap-3">
@@ -610,8 +610,13 @@
                     <form class="space-y-6">
                         <!-- Name Field -->
                         <div>
+<<<<<<< Updated upstream
                             <label for="name" class="block text-sm font-medium text-[#0b1530] mb-2">Nama
                                 Lengkap</label>
+=======
+                            <label for="name" class="block text-sm font-medium text-[#0b1530] mb-2">Full
+                                Name</label>
+>>>>>>> Stashed changes
                             <input type="text" id="name" name="name" required
                                 class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-colors text-sm"
                                 placeholder="Masukkan nama lengkap Anda">
@@ -619,8 +624,13 @@
 
                         <!-- Email Field -->
                         <div>
+<<<<<<< Updated upstream
                             <label for="email" class="block text-sm font-medium text-[#0b1530] mb-2">Alamat
                                 Email</label>
+=======
+                            <label for="email" class="block text-sm font-medium text-[#0b1530] mb-2">Email
+                                Address</label>
+>>>>>>> Stashed changes
                             <input type="email" id="email" name="email" required
                                 class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-colors text-sm"
                                 placeholder="Masukkan alamat email Anda">
@@ -628,8 +638,13 @@
 
                         <!-- Requirements Field -->
                         <div>
+<<<<<<< Updated upstream
                             <label for="requirements" class="block text-sm font-medium text-[#0b1530] mb-2">Kebutuhan
                                 Proyek</label>
+=======
+                            <label for="requirements" class="block text-sm font-medium text-[#0b1530] mb-2">Project
+                                Requirements</label>
+>>>>>>> Stashed changes
                             <textarea id="requirements" name="requirements" rows="4" required
                                 class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-colors text-sm resize-none"
                                 placeholder="Ceritakan kebutuhan, tujuan, dan timeline proyek Anda..."></textarea>
@@ -811,6 +826,7 @@
                     <h3 class="font-semibold text-lg mb-6">Tautan Cepat</h3>
                     <ul class="space-y-3">
                         <li><a href="#home"
+<<<<<<< Updated upstream
                                 class="text-white/70 hover:text-white transition-colors text-sm">Beranda</a></li>
                         <li><a href="#services"
                                 class="text-white/70 hover:text-white transition-colors text-sm">Layanan</a></li>
@@ -820,6 +836,17 @@
                                 Kami</a></li>
                         <li><a href="#contact"
                                 class="text-white/70 hover:text-white transition-colors text-sm">Kontak</a></li>
+=======
+                                class="text-white/70 hover:text-white transition-colors text-sm">Home</a></li>
+                        <li><a href="#services"
+                                class="text-white/70 hover:text-white transition-colors text-sm">Services</a></li>
+                        <li><a href="#projects"
+                                class="text-white/70 hover:text-white transition-colors text-sm">Projects</a></li>
+                        <li><a href="#about" class="text-white/70 hover:text-white transition-colors text-sm">About
+                                Us</a></li>
+                        <li><a href="#contact"
+                                class="text-white/70 hover:text-white transition-colors text-sm">Contact</a></li>
+>>>>>>> Stashed changes
                     </ul>
                 </div>
 
