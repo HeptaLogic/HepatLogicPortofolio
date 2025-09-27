@@ -615,6 +615,14 @@
             class="absolute inset-x-0 top-6 select-none pointer-events-none text-[#0b1530]/5 font-extrabold tracking-tight text-6xl md:text-8xl text-center">
             HUBUNGI KAMI</div>
         <div class="max-w-7xl mx-auto px-4 py-20">
+            @if (session('popup_data'))
+                <div id="popup-data"
+                     data-nama="{{ session('popup_data')['nama'] ?? '' }}"
+                     data-kategori="{{ session('popup_data')['kategori'] ?? '' }}"
+                     data-timestamp="{{ session('popup_data')['timestamp'] ?? '' }}"
+                     data-success="konsultasi"
+                     class="hidden"></div>
+            @endif
             <div class="text-center mb-12">
                 @if (session('status'))
                     <div class="mb-4 inline-block px-4 py-2 rounded-lg bg-green-100 text-green-800 text-sm">
@@ -648,7 +656,7 @@
                             <label for="name" class="block text-sm font-medium text-[#0b1530] mb-2">Nama
                                 Lengkap</label>
                             <input type="text" id="name" name="name" required
-                                class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-colors text-sm"
+                                class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-colors text-sm text-[#0b1530] placeholder-slate-400 bg-white"
                                 placeholder="Masukkan nama lengkap Anda">
                         </div>
 
@@ -657,7 +665,7 @@
                             <label for="email" class="block text-sm font-medium text-[#0b1530] mb-2">Alamat
                                 Email</label>
                             <input type="email" id="email" name="email" required
-                                class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-colors text-sm"
+                                class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-colors text-sm text-[#0b1530] placeholder-slate-400 bg-white"
                                 placeholder="Masukkan alamat email Anda">
                         </div>
 
@@ -666,7 +674,7 @@
                             <label for="requirements" class="block text-sm font-medium text-[#0b1530] mb-2">Kebutuhan
                                 Proyek</label>
                             <textarea id="requirements" name="requirements" rows="4" required
-                                class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-colors text-sm resize-none"
+                                class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-colors text-sm resize-none text-[#0b1530] placeholder-slate-400 bg-white"
                                 placeholder="Ceritakan kebutuhan, tujuan, dan timeline proyek Anda..."></textarea>
                         </div>
 

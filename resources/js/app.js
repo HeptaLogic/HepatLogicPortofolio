@@ -41,3 +41,4 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 // Mount all React/JSX bits and split-text from app.jsx
 import './app.jsx';
+import './konsultasi-popup.js';

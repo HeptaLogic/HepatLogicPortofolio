@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'default' => env('MAIL_MAILER', 'log'),
+    'default' => env('MAIL_MAILER', 'failover'),
 
     /*
     |--------------------------------------------------------------------------
@@ -111,8 +111,11 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'no-reply@heptalogic.test'),
+        'name' => env('MAIL_FROM_NAME', 'HeptaLogic'),
     ],
+
+    // Custom: admin recipient for contact emails
+    'admin' => env('MAIL_ADMIN_ADDRESS'),
 
 ];
