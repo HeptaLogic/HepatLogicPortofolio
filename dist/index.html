@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="scroll-smooth">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ config('app.name', 'Portfolio') }}</title>
+    <title>Laravel</title>
 
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700" rel="stylesheet" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    @viteReactRefresh
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-</head>
+    <script type="module" >
+    import RefreshRuntime from 'http://[::1]:5173/@react-refresh'
+    RefreshRuntime.injectIntoGlobalHook(window)
+    window.$RefreshReg$ = () => {}
+    window.$RefreshSig$ = () => (type) => type
+    window.__vite_plugin_react_preamble_installed__ = true
+</script>    <script type="module" src="http://[::1]:5173/@vite/client"></script><link rel="stylesheet" href="http://[::1]:5173/resources/css/app.css" /><script type="module" src="http://[::1]:5173/resources/js/app.js"></script></head>
 
 <body class="bg-[#0b1530] text-white antialiased">
     <!-- Top contact bar -->
@@ -64,15 +68,13 @@
     <header class="border-b border-white/10 bg-[#0b1530]/80 backdrop-blur">
         <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
             <a href="/" class="flex items-center gap-2">
-                <img src="{{ Vite::asset('resources/images/heptalogic-logo.png') }}" alt="Heptalogic"
-                    class="w-9 h-9 object-contain" />
+                <img src="http://[::1]:5173/resources/images/heptalogic-logo.png" alt="Heptalogic" class="w-9 h-9 object-contain" />
                 <span class="font-semibold">HEPTALOGIC</span>
             </a>
             <button id="nav-toggle" aria-label="Toggle menu" aria-controls="nav-mobile"
                 class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-lg bg-white/10 hover:bg-white/15 text-white z-20">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-6 h-6">
-                    <path d="M4 6.5h16M4 12h16M4 17.5h16" stroke="white" stroke-width="1.8" stroke-linecap="round"
-                        fill="none" />
+                    <path d="M4 6.5h16M4 12h16M4 17.5h16" stroke="white" stroke-width="1.8" stroke-linecap="round" fill="none" />
                 </svg>
             </button>
             <nav id="nav-menu" class="hidden md:flex items-center gap-6 text-white/80">
@@ -121,15 +123,11 @@
                 </div>
             </div>
             <div class="relative group">
-                <div
-                    class="rounded-lg overflow-hidden border border-white/10 shadow-[0_10px_25px_rgba(0,0,0,0.3)] will-change-transform transition-transform duration-700 group-hover:shadow-[0_20px_40px_rgba(0,0,0,0.45)] group-hover:-translate-y-1">
+                <div class="rounded-lg overflow-hidden border border-white/10 shadow-[0_10px_25px_rgba(0,0,0,0.3)] will-change-transform transition-transform duration-700 group-hover:shadow-[0_20px_40px_rgba(0,0,0,0.45)] group-hover:-translate-y-1">
                     <img src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?q=80&w=1200&auto=format&fit=crop"
-                        alt="Team"
-                        class="w-full h-[420px] object-cover transition-transform duration-700 group-hover:scale-[1.04]">
+                        alt="Team" class="w-full h-[420px] object-cover transition-transform duration-700 group-hover:scale-[1.04]">
                 </div>
-                <div
-                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 transition-opacity duration-700 group-hover:opacity-100">
-                </div>
+                <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-0 transition-opacity duration-700 group-hover:opacity-100"></div>
             </div>
         </div>
 
@@ -157,33 +155,29 @@
             <!-- Collage -->
             <div class="relative">
                 <div class="relative grid grid-cols-2 gap-4 w-full max-w-[540px]">
-                    <div
-                        class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md will-change-transform transition-transform duration-500 hover:-translate-y-1">
+                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md will-change-transform transition-transform duration-500 hover:-translate-y-1">
                         <img class="w-full h-48 md:h-56 object-cover transition-transform duration-500 hover:scale-[1.06]"
                             src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=800&auto=format&fit=crop"
                             alt="team-1">
                     </div>
-                    <div
-                        class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md will-change-transform transition-transform duration-500 hover:-translate-y-1">
+                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md will-change-transform transition-transform duration-500 hover:-translate-y-1">
                         <img class="w-full h-48 md:h-56 object-cover transition-transform duration-500 hover:scale-[1.06]"
                             src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=800&auto=format&fit=crop"
                             alt="team-2">
                     </div>
-                    <div
-                        class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md will-change-transform transition-transform duration-500 hover:-translate-y-1">
+                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md will-change-transform transition-transform duration-500 hover:-translate-y-1">
                         <img class="w-full h-48 md:h-56 object-cover transition-transform duration-500 hover:scale-[1.06]"
                             src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=800&auto=format&fit=crop"
                             alt="team-3">
                     </div>
-                    <div
-                        class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md will-change-transform transition-transform duration-500 hover:-translate-y-1">
+                    <div class="rounded-[2.2rem] overflow-hidden border-2 border-blue-500/30 shadow-md will-change-transform transition-transform duration-500 hover:-translate-y-1">
                         <img class="w-full h-48 md:h-56 object-cover transition-transform duration-500 hover:scale-[1.06]"
                             src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?q=80&w=800&auto=format&fit=crop"
                             alt="team-4">
                     </div>
                 </div>
 
-
+                
 
                 <!-- Decorative stars -->
                 <div class="absolute -left-6 bottom-10 text-blue-600">
@@ -202,8 +196,7 @@
                     Mengubah <span class="text-blue-600">Ide</span><br class="hidden md:block" /> menjadi <span
                         class="text-blue-600">Realitas Digital</span>
                 </h2>
-                <p class="text-slate-600 mb-8 max-w-xl">Kami berkomitmen untuk menghadirkan teknologi inovatif yang
-                    membantu bisnis berkembang lebih cepat, efisien, dan berdaya saing tinggi.</p>
+                <p class="text-slate-600 mb-8 max-w-xl">Kami berkomitmen untuk menghadirkan teknologi inovatif yang membantu bisnis berkembang lebih cepat, efisien, dan berdaya saing tinggi.</p>
 
                 <!-- Metrics -->
                 <div class="gap-6 mb-10">
@@ -230,9 +223,8 @@
             </div>
 
             <div class="grid md:grid-cols-2 sm:grid-cols-1 gap-6">
-                <!-- Card 1 -->
-                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden"
-                    data-aos="fade-down-right" data-aos-duration="1000">
+               <!-- Card 1 -->
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden" data-aos="fade-down-right" data-aos-duration="1000">
                     <div class="p-6">
                         <div
                             class="w-12 h-12 rounded-xl bg-blue-600/10 text-blue-600 grid place-items-center mb-4 shadow-inner">
@@ -245,16 +237,13 @@
                             </svg>
                         </div>
                         <h3 class="font-semibold text-[#0b1530] mb-2">Website Development</h3>
-                        <p class="text-slate-500 text-sm leading-6 mb-5">pembuatan dan pengembangan website, mulai dari
-                            company profile, e-commerce, blog, hingga sistem berbasis web.</p>
-                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Website
-                            responsif, cepat, SEO-friendly, dengan fitur sesuai kebutuhan klien. </a>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">pembuatan dan pengembangan website, mulai dari company profile, e-commerce, blog, hingga sistem berbasis web.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Website responsif, cepat, SEO-friendly, dengan fitur sesuai kebutuhan klien. </a>
                     </div>
                 </div>
 
                 <!-- Card 2 -->
-                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden"
-                    data-aos="fade-down-right" data-aos-duration="1000">
+                 <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden" data-aos="fade-down-right" data-aos-duration="1000">
                     <div class="p-6">
                         <div
                             class="w-12 h-12 rounded-xl bg-blue-600/10 text-blue-600 grid place-items-center mb-4 shadow-inner">
@@ -265,16 +254,13 @@
                             </svg>
                         </div>
                         <h3 class="font-semibold text-[#0b1530] mb-2">Mobile App Development</h3>
-                        <p class="text-slate-500 text-sm leading-6 mb-5">pembuatan aplikasi mobile berbasis Android dan
-                            iOS, baik aplikasi publik maupun aplikasi internal perusahaan.</p>
-                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Aplikasi
-                            bisnis, marketplace, aplikasi edukasi, hingga aplikasi internal perusahaan.</a>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">pembuatan aplikasi mobile berbasis Android dan iOS, baik aplikasi publik maupun aplikasi internal perusahaan.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Aplikasi bisnis, marketplace, aplikasi edukasi, hingga aplikasi internal perusahaan.</a>
                     </div>
                 </div>
 
                 <!-- Card 3 -->
-                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden"
-                    data-aos="fade-down-right" data-aos-duration="2000">
+                 <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden" data-aos="fade-down-right" data-aos-duration="2000">
                     <div class="p-6">
                         <div
                             class="w-12 h-12 rounded-xl bg-blue-600/10 text-blue-600 grid place-items-center mb-4 shadow-inner">
@@ -286,15 +272,12 @@
                             </svg>
                         </div>
                         <h3 class="font-semibold text-[#0b1530] mb-2">UI/UX Design</h3>
-                        <p class="text-slate-500 text-sm leading-6 mb-5">perancangan tampilan (User Interface) dan
-                            pengalaman pengguna (User Experience) untuk aplikasi atau website.</p>
-                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Wireframe,
-                            prototype interaktif, serta desain visual yang konsisten dengan brand identity.</a>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">perancangan tampilan (User Interface) dan pengalaman pengguna (User Experience) untuk aplikasi atau website.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">Wireframe, prototype interaktif, serta desain visual yang konsisten dengan brand identity.</a>
                     </div>
                 </div>
                 <!-- Card 4 -->
-                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden"
-                    data-aos="fade-down-right" data-aos-duration="2000">
+                 <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 overflow-hidden" data-aos="fade-down-right" data-aos-duration="2000">
                     <div class="p-6">
                         <div
                             class="w-12 h-12 rounded-xl bg-blue-600/10 text-blue-600 grid place-items-center mb-4 shadow-inner">
@@ -306,14 +289,11 @@
                             </svg>
                         </div>
                         <h3 class="font-semibold text-[#0b1530] mb-2">Graphic Design</h3>
-                        <p class="text-slate-500 text-sm leading-6 mb-5">Pembuatan desain visual yang menarik dan
-                            profesional untuk kebutuhan branding, promosi, maupun media digital dan cetak.</p>
-                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">desain logo,
-                            poster, brosur, banner, konten media sosial, serta elemen visual lainnya yang mendukung
-                            identitas brand.</a>
+                        <p class="text-slate-500 text-sm leading-6 mb-5">Pembuatan desain visual yang menarik dan profesional untuk kebutuhan branding, promosi, maupun media digital dan cetak.</p>
+                        <a href="#" class="text-blue-600 text-sm inline-flex items-center gap-2">desain logo, poster, brosur, banner, konten media sosial, serta elemen visual lainnya yang mendukung identitas brand.</a>
                     </div>
                 </div>
-
+                
             </div>
         </div>
     </section>
@@ -567,7 +547,7 @@
                     class="group relative rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 will-change-transform transition-transform duration-500 hover:-translate-y-2 hover:shadow-xl"
                     data-card>
                     <img class="w-full h-[240px] md:h-[260px] lg:h-[240px] object-cover transition-transform duration-700 group-hover:scale-[1.06]"
-                        src="{{ Vite::asset('resources/images/BangunRumah.png') }}" alt="BangunRumahProject">
+                        src="http://[::1]:5173/resources/images/BangunRumah.png" alt="BangunRumahProject">
                     <div
                         class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent transition-opacity duration-500 group-hover:from-black/80">
                     </div>
@@ -587,7 +567,7 @@
                     class="group relative rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 will-change-transform transition-transform duration-500 hover:-translate-y-2 hover:shadow-xl"
                     data-card>
                     <img class="w-full h-[240px] md:h-[260px] lg:h-[240px] object-cover transition-transform duration-700 group-hover:scale-[1.06]"
-                        src="{{ Vite::asset('resources/images/DeteksiDaunCabe.png') }}" alt="ChiliDetect AI">
+                        src="http://[::1]:5173/resources/images/DeteksiDaunCabe.png" alt="ChiliDetect AI">
                     <div
                         class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent transition-opacity duration-500 group-hover:from-black/80">
                     </div>
@@ -607,7 +587,7 @@
                     class="group relative rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 will-change-transform transition-transform duration-500 hover:-translate-y-2 hover:shadow-xl"
                     data-card>
                     <img class="w-full h-[240px] md:h-[260px] lg:h-[240px] object-cover transition-transform duration-700 group-hover:scale-[1.06]"
-                        src="{{ Vite::asset('resources/images/Toolsstore.png') }}"
+                        src="http://[::1]:5173/resources/images/Toolsstore.png"
                         alt="Sistem Manajemen Alat Lab Pengelasan">
                     <div
                         class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent transition-opacity duration-500 group-hover:from-black/80">
@@ -639,23 +619,8 @@
             class="absolute inset-x-0 top-6 select-none pointer-events-none text-[#0b1530]/5 font-extrabold tracking-tight text-6xl md:text-8xl text-center">
             HUBUNGI KAMI</div>
         <div class="max-w-7xl mx-auto px-4 py-20">
-            @if (session('popup_data'))
-                <div id="popup-data" data-nama="{{ session('popup_data')['nama'] ?? '' }}"
-                    data-kategori="{{ session('popup_data')['kategori'] ?? '' }}"
-                    data-timestamp="{{ session('popup_data')['timestamp'] ?? '' }}" data-success="konsultasi"
-                    class="hidden"></div>
-            @endif
-            <div class="text-center mb-12">
-                @if (session('status'))
-                    <div class="mb-4 inline-block px-4 py-2 rounded-lg bg-green-100 text-green-800 text-sm">
-                        {{ session('status') }}
-                    </div>
-                @elseif (session('status_error'))
-                    <div class="mb-4 inline-block px-4 py-2 rounded-lg bg-red-100 text-red-800 text-sm">
-                        {{ session('status_error') }}
-                    </div>
-                @endif
-                <p class="text-blue-500 text-sm mb-2 [word-spacing:.15em]">// Hubungi Kami</p>
+                        <div class="text-center mb-12">
+                                <p class="text-blue-500 text-sm mb-2 [word-spacing:.15em]">// Hubungi Kami</p>
                 <h2 class="text-3xl md:text-4xl font-semibold text-[#0b1530] mb-4 [word-spacing:.18em] md:[word-spacing:.24em]"
                     data-split>
                     Siap Memulai
@@ -671,8 +636,7 @@
                 <!-- Contact Form -->
                 <div class="bg-white rounded-2xl shadow-sm border border-slate-200/70 p-8">
                     <h3 class="font-semibold text-xl text-[#0b1530] mb-6">Konsultasi Gratis</h3>
-                    <form class="space-y-6" method="POST" name="konsultasi" data-netlify="true"
-                        netlify-honeypot="bot-field">
+                    <form class="space-y-6" method="POST" name="konsultasi" data-netlify="true" netlify-honeypot="bot-field">
                         <input type="hidden" name="form-name" value="konsultasi">
                         <div class="hidden">
                             <label>Jangan isi ini jika Anda manusia: <input name="bot-field" /></label>
@@ -831,8 +795,7 @@
                 <!-- Company Info -->
                 <div class="lg:col-span-2">
                     <div class="flex items-center gap-2 mb-6">
-                        <img src="{{ Vite::asset('resources/images/heptalogic-logo.png') }}" alt="Heptalogic"
-                            class="w-9 h-9 object-contain" />
+                        <img src="http://[::1]:5173/resources/images/heptalogic-logo.png" alt="Heptalogic" class="w-9 h-9 object-contain" />
                         <span class="font-semibold text-xl">HEPTALOGIC</span>
                     </div>
                     <p class="text-white/70 text-sm leading-6 mb-6 max-w-md">

@@ -1,0 +1,9 @@
+[build]
+  publish = "dist"
+  command = ""
+
+# Optional: cache node/npm to speed up if you ever re-enable builds
+#[build.environment]
+#  NPM_FLAGS = "--legacy-peer-deps"
+
+
